@@ -755,6 +755,10 @@ a {
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 /* NAVBAR */
 #navbar {
   background-color: var(--etoile--light);
