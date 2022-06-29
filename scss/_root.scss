@@ -11,3 +11,20 @@
 
   ---main-font: "Montserrat", sans-serif;
 }
+
+.code {
+  width: calc(100% - 80px);
+  background-color: #eeeeee;
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.copy {
+  background-color: #eeeeee;
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px 0;
+}

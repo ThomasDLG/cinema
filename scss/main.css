@@ -239,6 +239,23 @@ video {
   ---main-font: "Montserrat", sans-serif;
 }
 
+.code {
+  width: calc(100% - 80px);
+  background-color: #eeeeee;
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.copy {
+  background-color: #eeeeee;
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
 .section-64 {
   padding: 64px 0;
 }
@@ -921,7 +938,7 @@ a {
 
 .btn {
   background-color: var(--primary);
-  color: var(--etoile--light);
+  color: var(--light);
   font-family: var(--main-font);
   padding: 10px 20px;
   border-radius: 5px;
@@ -937,11 +954,24 @@ a {
 .btn-small {
   background-color: var(--primary);
   padding: 5px 10px;
-  color: var(--etoile--light);
+  color: var(--light);
   border-radius: 5px;
   transition: 0.3s;
 }
 .btn-small:hover {
+  background-color: var(--primary-hover);
+  transition: 0.3s;
+}
+
+.btn-tags {
+  background-color: var(--primary);
+  padding: 4px 8px;
+  vertical-align: top;
+  color: var(--light);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn-tags:hover {
   background-color: var(--primary-hover);
   transition: 0.3s;
 }
