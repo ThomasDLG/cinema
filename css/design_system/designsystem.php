@@ -168,7 +168,10 @@
             </div>
 
             <div id="radio" class="d-flex justify-center wrap">
-
+              <form action="">
+              <label class="" for="input">Label</label>
+              <input type="text" placeholder="text sample" id="input">
+              </form>
             </div>
         </div>
     </section>

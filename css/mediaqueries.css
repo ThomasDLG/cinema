@@ -74,6 +74,23 @@
     justify-content: flex-end !important;
     flex-basis: calc(100% - 100px) !important;
   }
+  .plus-show {
+    transform: translateY(80px) !important;
+    transition: 0.3s ease-in-out;
+  }
+}
+@media screen and (max-width: 768px) {
+  #plus {
+    transform: translateY(-840px) !important;
+    transition: 0.3s ease-in-out;
+  }
+  .plus-item {
+    width: 100% !important;
+  }
+  #plus.plus-show {
+    transform: translateY(80px) !important;
+    transition: 0.3s ease-in-out;
+  }
 }
 
 /* FOOTER */
@@ -174,20 +191,11 @@
 /* I-SENSE */
 
 @media screen and (max-width: 960px) {
-  .content-isense {
-    margin: 0 !important;
+  .isense-content {
     justify-content: center !important;
   }
-  .container-isense {
-    flex-wrap: wrap !important;
-    justify-content: start !important;
-  }
-  .isense-txt,
   .isense-img {
-    margin: 0 !important;
-  }
-  .container-isense h2 {
-    margin-top: 30px !important;
+    padding: 0;
   }
 }
 @media screen and (max-width: 768px) {

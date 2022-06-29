@@ -13,6 +13,26 @@
 
 /* NAVBAR */
 
+#navbar {
+  z-index: 10;
+}
+
+#plus {
+  z-index: 9;
+  top: 0;
+  transform: translateY(-250px);
+  transition: 0.3s ease-in-out;
+}
+
+#plus.plus-show {
+  transform: translateY(48px);
+  transition: 0.3s ease-in-out;
+}
+
+.plus-item ul li a {
+  color: var(--etoile-dark);
+}
+
 .navbar {
   width: 100%;
   height: auto;
