@@ -44,18 +44,18 @@ $data = json_decode($response);
 ?>
 <?php
   $title = 'Résultats de recherche pour ' . '"' . $research . '"' . '';
-  include("inc/navbar.php");
+  include("inc/header.php");
 ?>
 
-    <section id="research-results">
+    <section id="research-results" class="section-64">
         <div class="container-content">
           <?php echo'<h2>Résultats pour la recherche ' . '"' . $research . '"' . '</h2>' ?>
-            <div class="films">
+            <div class="d-flex row wrap justify-between wrapper">
                 <?php
                     foreach ($data as $value) {
                           if (is_array($value) || is_object($value)){
                               foreach ($value as $films) {
-                                  echo '<div class="card">';
+                                  echo '<div class="my-2 mx-2 relative my-2 mx-2 relative card">';
                                       echo '<a href="#">';
                                           echo '<img src="' . 'https://image.tmdb.org/t/p/w500' . $films->poster_path . '" alt="' . $films->original_title . '">';
                                       echo '</a>';

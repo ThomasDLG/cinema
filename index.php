@@ -130,7 +130,7 @@ include("inc/header.php");
         <div class="container-isense mx-2 d-flex row wrap">
 
           <!-- CONTENT-1 -->
-          <div class="isense-content my-2 w-100 d-flex row justify-between">
+          <div class="isense-content my-2 w-100 d-flex row wrap justify-between">
             <div class="isense-img pr-2">
               <img src="src/img1.jpg" alt="">
             </div>
@@ -141,7 +141,7 @@ include("inc/header.php");
           </div>
 
           <!-- CONTENT-2 -->
-          <div class="isense-content my-2 w-100 d-flex row-reverse justify-between">
+          <div class="isense-content my-2 w-100 d-flex row-reverse wrap justify-between">
             <div class="isense-img pl-2">
               <img src="src/img1.jpg" alt="">
             </div>
@@ -152,7 +152,7 @@ include("inc/header.php");
           </div>
 
           <!-- CONTENT-3 -->
-          <div class="isense-content my-2 w-100 d-flex row justify-between">
+          <div class="isense-content my-2 w-100 d-flex row wrap justify-between">
             <div class="isense-img pr-2">
               <img src="src/img1.jpg" alt="">
             </div>
