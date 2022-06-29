@@ -1,0 +1,377 @@
+:root {
+  /* COLORS */
+  --etoile-primary-color: #e62140;
+  --etoile-hover-color: #cf1d38;
+  --etoile-secondary-color: #101525;
+  --etoile--light: #f9f9f9;
+  --etoile-dark: #282525;
+  --etoile-balck: #000;
+  --etoile-white: #fff;
+  /* FONTS */
+  --etoile-main-font: "Montserrat", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  font-weight: 700;
+}
+
+.navbar .logo-navbar h1 {
+  margin: 0;
+}
+
+.navbar .logo-navbar img {
+  width: 100px;
+}
+
+.navbar .naviguation-navbar ul {
+  padding: 0;
+}
+
+.navbar .naviguation-navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar .naviguation-navbar ul li:nth-last-child(1) {
+  margin-right: 0px;
+  display: none;
+}
+
+.navbar .naviguation-navbar ul li a img {
+  margin-right: 10px;
+}
+
+.navbar .searchbar-navbar form input {
+  height: 32px;
+  padding-left: 10px;
+  background-color: #fff;
+  color: var(--etoile--dark);
+  font-family: var(--etoile-main-font);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.navbar .login-navbar img {
+  margin-left: 10px;
+}
+
+.search-open {
+  display: block !important;
+}
+
+.searching-popup {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  max-height: 10000px;
+  transition: 0.3s;
+}
+
+.close-searching-popup {
+  position: absolute;
+}
+
+.content-search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.flexForm {
+  width: 100%;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.searching-popup-input {
+  width: calc(100% - 90px);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  caret-color: var(--etoile-primary-color);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.searching-popup-input::placeholder {
+  color: #fff;
+  font-weight: bold;
+}
+
+.submit-searching {
+  border: none;
+  outline: none;
+  border-radius: 32px;
+  background-color: var(--etoile-primary-color);
+  width: 64px;
+  height: 64px;
+  transition: 0.3s;
+}
+
+.submit-searching:hover {
+  background-color: var(--etoile-hover-color);
+  transition: 0.3s;
+}
+
+.submit-searching img {
+  width: 24px;
+}
+
+.close-searching-popup {
+  top: 5%;
+  right: 5%;
+}
+
+.close-searching-popup img {
+  width: 32px;
+}
+
+.searching-popup .posterResults {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 5%;
+  align-items: flex-end;
+  overflow-y: auto;
+}
+
+.searching-popup .posterResults img {
+  width: 200px;
+  height: 300px;
+  margin-right: 24px;
+  border-radius: 5px;
+}
+
+/* MYTOILE */
+
+.container-mytoile {
+  background-color: #101525;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.mytoile {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.mytoile a {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 24px;
+}
+
+.footer-content ul {
+  padding: 0;
+}
+
+.footer-content ul li {
+  list-style: none;
+  margin: 12px 0;
+}
+
+.footer-content .social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content .social-icons i {
+  font-size: 24px;
+}
+
+.footer-content form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* MOVIE*/
+
+.container-content h2 {
+  margin-left: 16px;
+}
+
+.container-content {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.option-active {
+  display: block !important;
+}
+
+.select-container {
+  position: relative;
+  width: 100%;
+  padding: 0 16px;
+  user-select: none;
+}
+
+.select {
+  background-color: var(--etoile--light);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px 0;
+}
+
+.option-container {
+  display: none;
+}
+
+.option-container a {
+  display: block;
+}
+
+.select__trigger {
+  font-weight: bold;
+  padding-left: 16px;
+}
+
+.option-select {
+  padding: 12px 0 12px 16px;
+  border-bottom: 1px solid var(--etoile--light);
+}
+
+.option-select:hover {
+  background-color: var(--etoile-hover-color);
+  border-bottom: 1px solid var(--etoile-primary-color);
+  color: var(--etoile--light);
+}
+
+/* .card {
+  margin: 16px;
+  position: relative;
+} */
+
+.card img {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
+  transition: all 0.2s ease-in-out;
+}
+
+.card h4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: var(--etoile--light);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  vertical-align: bottom;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card h4:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* EVENTS */
+
+.event-card {
+  margin: 16px;
+  position: relative;
+}
+
+.event-card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
+  transition: all 0.2s ease-in-out;
+}
+
+.event-card h4 {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: var(--etoile--light);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  vertical-align: bottom;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.event-card h4:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.event-card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}

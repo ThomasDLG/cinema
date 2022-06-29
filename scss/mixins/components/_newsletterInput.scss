@@ -1,0 +1,25 @@
+.newsletter {
+  width: calc(100% - 60px);
+  height: 40px;
+  padding-left: 10px;
+  background-color: var(--white);
+  color: var(--etoile--dark);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+}
+
+.newsletter::placeholder {
+  color: var(--dark);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer-content form button {
+  border-radius: 0px 5px 5px 0px !important;
+  cursor: pointer;
+}

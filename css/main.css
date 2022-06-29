@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  /* COLORS */
+  --etoile-primary-color: #e62140;
+  --etoile-hover-color: #cf1d38;
+  --etoile-secondary-color: #101525;
+  --etoile--light: #f9f9f9;
+  --etoile-dark: #282525;
+  --etoile-balck: #000;
+  --etoile-white: #fff;
+  /* FONTS */
+  --etoile-main-font: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: var(--etoile-main-font);
+  color: var(--etoile-dark);
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--etoile-main-font);
+  color: var(--etoile-dark);
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--etoile-dark);
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--etoile-primary-color);
+  padding: 10px 20px;
+  color: var(--etoile--light);
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+  vertical-align: bottom;
+}
+.btn:hover {
+  background-color: var(--etoile-hover-color);
+  transition: 0.3s;
+}
+
+.btn-small {
+  background-color: var(--etoile-primary-color);
+  padding: 5px 10px;
+  color: var(--etoile--light);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn-small:hover {
+  background-color: var(--etoile-hover-color);
+  transition: 0.3s;
+}
+
+.btn-link {
+  padding: 10px 20px;
+  color: var(--etoile--dark);
+  transition: 0.3s;
+}
+
+.btn-tags {
+  background-color: var(--etoile-primary-color);
+  padding: 4px 8px;
+  vertical-align: top;
+  color: var(--etoile--light);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn-tags:hover {
+  background-color: var(--etoile-hover-color);
+  transition: 0.3s;
+}
+
+.btn-icon-right img {
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.btn-icon-left img {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.link {
+  color: var(--etoile-light);
+  transition: 0.3s;
+}
+.link:hover {
+  color: var(--etoile-primary-color);
+  transition: 0.3s;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 32px 0;
+}
+
+.content-dopdown-active {
+  padding: 10px 20px !important;
+  transition: 0.3s !important;
+  max-height: 1000px !important;
+}
+.btn-dropdown-active {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.btn-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--etoile--light);
+  color: var(--etoile-dark);
+  padding: 10px 20px;
+}
+
+.content-dropdown {
+  background-color: var(--etoile--light);
+  color: var(--etoile-dark);
+  max-height: 0px;
+  overflow: hidden;
+  padding: 0px 20px;
+  transition: 0.3s;
+}
+
+.btn-dropdown img {
+  width: 10px;
+  transition: 0.3s;
+}
+
+.newsletter {
+  width: calc(100% - button);
+  height: 40px;
+  padding-left: 10px;
+  background-color: var(--etoile-white);
+  color: var(--etoile--dark);
+  font-family: var(--etoile-main-font);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+}
+
+.newsletter::placeholder {
+  color: var(--etoile--dark);
+  font-family: var(--etoile-main-font);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer-content form button {
+  border-radius: 0px 5px 5px 0px !important;
+  cursor: pointer;
+}
+
+/* SECTION */
+
+#navbar {
+  background-color: var(--etoile--light);
+  border-bottom: var(--etoile-primary-color) 2px solid;
+}
+
+#movie {
+  padding-top: 64px;
+}
+
+#soonMovie {
+  padding: 64px 0;
+}
+
+#events {
+  background-color: var(--etoile-secondary-color);
+  padding: 64px 0;
+}
+
+#events h2 {
+  margin-top: 0;
+  color: var(--etoile--light);
+}
+
+#footer {
+  background-color: var(--etoile-secondary-color);
+  position: relative;
+}
+
+#footer h4,
+#footer p,
+#footer a {
+  color: var(--etoile--light);
+}
+
+#footer a:hover {
+  color: var(--etoile-hover-color);
+}

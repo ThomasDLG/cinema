@@ -1,0 +1,37 @@
+//
+// PADDING & MARGIN
+//
+
+$spacing: (
+  p: padding,
+  m: margin,
+);
+$value-spacing: (
+  0: 0px,
+  1: 8px,
+  2: 16px,
+  3: 24px,
+  4: 32px,
+  5: 64px,
+);
+
+@each $key, $pm in $spacing {
+  @for $i from 0 to 6 {
+    .#{$key}y-#{$i},
+    .#{$key}t-#{$i} {
+      #{$pm}-top: map_get($value-spacing, $i);
+    }
+    .#{$key}r-#{$i},
+    .#{$key}x-#{$i} {
+      #{$pm}-right: map_get($value-spacing, $i);
+    }
+    .#{$key}y-#{$i},
+    .#{$key}b-#{$i} {
+      #{$pm}-bottom: map_get($value-spacing, $i);
+    }
+    .#{$key}x-#{$i},
+    .#{$key}l-#{$i} {
+      #{$pm}-left: map_get($value-spacing, $i);
+    }
+  }
+}
