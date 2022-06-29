@@ -53,7 +53,7 @@
                 $btn_icon_left = '<a href="#" class="btn btn-icon-left"><i class="fa-solid fa-plus"></i>Button Icon Left</a>';
                 $btn = '<a href="#" class="btn">Button</a>';
                 $btn_small = '<a href="#" class="btn-small">Button</a>';
-                $btn_tags = '<a href="#" class="btn-tags"><img src="src/icons/4k.svg" alt="" /></a>';
+                $btn_tags = '<a href="#" class="btn-tags"><i class="fa-brands fa-accessible-icon"></i></a>';
                 $link = '<a href="#" class="link">link</a>';
                 ?>
                 <h2 class="text-center w-100">Buttons</h2>
@@ -65,19 +65,25 @@
                 <input class="code w-90 mr-1" id="btn_icon_left" value="<?= htmlentities($btn_icon_left) ?>">
                 <button class="copy" data-clipboard-target="#btn_icon_left"><i class="fa-solid fa-copy"></i></button>
 
+                <div class="w-100 py-2 text-center">
                 <a href="#" class="btn">Button</a>
+                </div>
                 <input class="code w-90 mr-1" id="btn" value="<?= htmlentities($btn) ?>">
                 <button class="copy" data-clipboard-target="#btn"><i class="fa-solid fa-copy"></i></button>
 
                 <a href="#" class="btn-small">Button Small</a>
                 <input class="code w-90 mr-1" id="btn_small" value="<?= htmlentities($btn_small) ?>">
-                <button class="copy" data-clipboarbtn_smalld-target="#btn_small"><i class="fa-solid fa-copy"></i></button>
+                <button class="copy" data-clipboard-target="#btn_small"><i class="fa-solid fa-copy"></i></button>
 
-                <a href="#" class="btn-tags mx-32"><img src="../../src/icons/4k.svg" alt="" /></a>
+                <div class="w-100 text-center">
+                <a href="#" class="btn-tags"><i class="fa-brands fa-accessible-icon"></i></a>
+                </div>
                 <input class="code w-90 mr-1" id="btn_tags" value="<?= htmlentities($btn_tags) ?>">
                 <button class="copy" data-clipboard-target="#btn_tags"><i class="fa-solid fa-copy"></i></button>
 
-                <a href="#" class="link">Link Hover</a>
+                <div class="w-100 text-center">
+                  <a href="#" class="link">Link Hover</a>
+                </div>
                 <input class="code w-90 mr-1" id="link" value="<?= htmlentities($link) ?>">
                 <button class="copy" data-clipboard-target="#link"><i class="fa-solid fa-copy"></i></button>
 
@@ -121,9 +127,8 @@
               </div>
             </div>';
                 ?>
-                <h2 class="text-center w-100">Dropdown Menu</h2>
+                <h2 class="text-center w-100">Accordion</h2>
                 <div class="container">
-  <h2>Frequently Asked Questions</h2>
   <div class="accordion">
     <div class="accordion-item">
       <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Why is the moon sometimes out during the day?</span><span class="icon" aria-hidden="true"></span></button>
@@ -157,7 +162,7 @@
     </div>
   </div>
 </div>
-                <textarea class="code w-100 h-auto" id="accordion"><?= htmlentities($accordion) ?></textarea>
+                <textarea class="code w-100 h-auto" id="accordion" value="<?= htmlentities($accordion) ?>"><?= htmlentities($accordion) ?></textarea>
                 <button class="copy" data-clipboard-target="#accordion"><i class="fa-solid fa-copy"></i></button>
 
             </div>
