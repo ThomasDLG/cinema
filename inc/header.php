@@ -31,7 +31,7 @@
 
   <!-- NAVBAR -->
 
-    <header id="navbar">
+    <header id="navbar" class="relative">
       <div class="container">
         <div class="navbar">
           <div class="logo-navbar">
@@ -48,7 +48,7 @@
                 <li><a href="index.php"><img src="src/icons/home.svg" alt="">Accueil</a></li>
                 <li><a href="#"><img src="src/icons/films.svg" alt="">Films</a></li>
                 <li><a href="#"><img src="src/icons/bookmark.svg" alt="">My-Toile</a></li>
-                <li><a href="#"><img src="src/icons/about.svg" alt="">Plus</a></li>
+                <li><a class="plusbtn" href="#"><img src="src/icons/about.svg" alt="">Plus</a></li>
                 <li><a href="#" id="searching"><img src="src/icons/search.svg" alt="">Recherche</a></li>
               </ul>
             </nav>
@@ -59,3 +59,48 @@
         </div>
       </div>
     </header>
+
+      <!-- PLUS MENU -->
+
+  <div id="plus" class="absolute w-100">
+    <div class="container-fluid white py-3">
+      <div class="container white d-flex row wrap justify-between">
+        <!-- ITEM -->
+        <div class="plus-item">
+          <h4 class="text-dark text-center">Experience</h4>
+          <ul class="list mt-1">
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+          </ul>
+        </div>
+        <!-- ITEM -->
+        <div class="plus-item">
+          <h4 class="text-dark text-center">Experience</h4>
+          <ul class="list mt-1">
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+          </ul>
+        </div>
+        <!-- ITEM -->
+        <div class="plus-item">
+          <h4 class="text-dark text-center">Experience</h4>
+          <ul class="list mt-1">
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+          </ul>
+        </div>
+        <!-- ITEM -->
+        <div class="plus-item">
+          <h4 class="text-dark text-center">Experience</h4>
+          <ul class="list mt-1">
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
