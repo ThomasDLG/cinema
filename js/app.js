@@ -42,3 +42,12 @@ select.addEventListener("click", function () {
   console.log("click");
   optionContainer.classList.toggle("option-active");
 });
+
+// PLUS MENU
+
+plusIcon = document.querySelector(".plusbtn");
+plusMenu = document.getElementById("plus");
+
+plusIcon.addEventListener("click", function (evt) {
+  plusMenu.classList.toggle("plus-show");
+});
