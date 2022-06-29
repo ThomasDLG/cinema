@@ -1,25 +1,20 @@
-// DROPDOWN MENU
+// ACCORDION
 
-let dropdown = document.querySelectorAll(".btn-dropdown");
-const dropdownContent = document.querySelectorAll(".content-dropdown");
-let dropdownIcon = document.querySelectorAll(".btn-dropdown img");
+const items = document.querySelectorAll(".accordion button");
 
-function dropdownText(index) {
-  console.log(dropdownContent);
-  dropdownContent[index].classList.toggle("content-dopdown-active");
-}
-function dropdownRotate(index) {
-  console.log(dropdownIcon);
-  dropdownIcon[index].classList.toggle("btn-dropdown-active");
+function toggleAccordion() {
+  const itemToggle = this.getAttribute("aria-expanded");
+
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute("aria-expanded", "false");
+  }
+
+  if (itemToggle == "false") {
+    this.setAttribute("aria-expanded", "true");
+  }
 }
 
-for (let index = 0; index < dropdown.length; index++) {
-  dropdown[index].addEventListener("click", function () {
-    console.log([index]);
-    dropdownText(index);
-    dropdownRotate(index);
-  });
-}
+items.forEach((item) => item.addEventListener("click", toggleAccordion));
 
 // SEARCHING POPUP
 
@@ -47,30 +42,3 @@ select.addEventListener("click", function () {
   console.log("click");
   optionContainer.classList.toggle("option-active");
 });
-
-// document
-//   .querySelector(".select-wrapper")
-//   .addEventListener("click", function () {
-//     this.querySelector(".select").classList.toggle("open");
-//   });
-
-// for (const option of document.querySelectorAll(".custom-option")) {
-//   option.addEventListener("click", function () {
-//     if (!this.classList.contains("selected")) {
-//       this.parentNode
-//         .querySelector(".custom-option.selected")
-//         .classList.remove("selected");
-//       this.classList.add("selected");
-//       this.closest(".select").querySelector(
-//         ".select__trigger span"
-//       ).textContent = this.textContent;
-//     }
-//   });
-// }
-
-// window.addEventListener("click", function (e) {
-//   const select = document.querySelector(".select");
-//   if (!select.contains(e.target)) {
-//     select.classList.remove("open");
-//   }
-// });
