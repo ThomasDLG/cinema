@@ -166,6 +166,10 @@
                 <button class="copy" data-clipboard-target="#accordion"><i class="fa-solid fa-copy"></i></button>
 
             </div>
+
+            <div id="radio" class="d-flex justify-center wrap">
+
+            </div>
         </div>
     </section>
 <script src="../../js/dist/clipboard.min.js"></script>
