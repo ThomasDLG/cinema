@@ -30,6 +30,15 @@ closed.addEventListener("click", function (evt) {
   popup.classList.remove("search-open");
 });
 
+// PLUS MENU
+
+plusIcon = document.querySelector(".plusbtn");
+plusMenu = document.getElementById("plus");
+
+plusIcon.addEventListener("click", function (evt) {
+  plusMenu.classList.toggle("plus-show");
+});
+
 // SELECT GENRE
 
 // let selected = (document.getElementById(".select__trigger span").innerHTML =
@@ -41,13 +50,4 @@ let option = document.querySelector(".option-select");
 select.addEventListener("click", function () {
   console.log("click");
   optionContainer.classList.toggle("option-active");
-});
-
-// PLUS MENU
-
-plusIcon = document.querySelector(".plusbtn");
-plusMenu = document.getElementById("plus");
-
-plusIcon.addEventListener("click", function (evt) {
-  plusMenu.classList.toggle("plus-show");
 });

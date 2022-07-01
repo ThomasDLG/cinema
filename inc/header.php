@@ -67,39 +67,29 @@
       <div class="container white d-flex row wrap justify-between">
         <!-- ITEM -->
         <div class="plus-item">
-          <h4 class="text-dark text-center">Experience</h4>
+          <h4 class="text-dark text-center">Expérience</h4>
           <ul class="list mt-1">
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">Séance i-sense</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">Luxe Diner</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">L'étoile</a></li>
           </ul>
         </div>
         <!-- ITEM -->
         <div class="plus-item">
-          <h4 class="text-dark text-center">Experience</h4>
+          <a href="about.php"><h4 class="text-dark text-center">A propos</h4></a>
           <ul class="list mt-1">
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">Films & Evénements</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">Luxe Diner</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">Accéssibilité</a></li>
           </ul>
         </div>
         <!-- ITEM -->
         <div class="plus-item">
-          <h4 class="text-dark text-center">Experience</h4>
-          <ul class="list mt-1">
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-          </ul>
+          <a href="tarifs.php"><h4 class="text-dark text-center">Tarifs</h4></a>
         </div>
         <!-- ITEM -->
         <div class="plus-item">
-          <h4 class="text-dark text-center">Experience</h4>
-          <ul class="list mt-1">
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">sample text</a></li>
-          </ul>
+          <h4 class="text-dark text-center">Contact</h4>
         </div>
       </div>
     </div>
