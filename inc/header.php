@@ -47,7 +47,7 @@
               <ul>
                 <li><a href="index.php"><img src="src/icons/home.svg" alt="">Accueil</a></li>
                 <li><a href="#"><img src="src/icons/films.svg" alt="">Films</a></li>
-                <li><a href="#"><img src="src/icons/bookmark.svg" alt="">My-Toile</a></li>
+                <li><a href="mytoile.php"><img src="src/icons/bookmark.svg" alt="">My-Toile</a></li>
                 <li><a class="plusbtn" href="#"><img src="src/icons/about.svg" alt="">Plus</a></li>
                 <li><a href="#" id="searching"><img src="src/icons/search.svg" alt="">Recherche</a></li>
               </ul>

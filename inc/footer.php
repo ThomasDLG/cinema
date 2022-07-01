@@ -43,9 +43,9 @@
             <h4 class="text-light my-2">Naviguation</h4>
             <ul>
               <li><a class="link" href="#">Films & Evénements</a></li>
-              <li><a class="link" href="#">My-Toile</a></li>
+              <li><a class="link" href="mytoile.php">My-Toile</a></li>
               <li><a class="link" href="#">Luxe Diner</a></li>
-              <li><a class="link" href="#">Tarifs</a></li>
+              <li><a class="link" href="tarifs.php">Tarifs</a></li>
               <li><a class="link" href="#">Abonnements</a></li>
             </ul>
           </div>
@@ -54,7 +54,7 @@
           <div class="footer-content">
             <h4 class="text-light my-2">Naviguation</h4>
             <ul>
-              <li><a class="link" href="#">A propos</a></li>
+              <li><a class="link" href="about.php">A propos</a></li>
               <li><a class="link" href="#">Contact</a></li>
               <li><a class="link" href="#">F.A.Q</a></li>
               <li><a class="link" href="#">Accéssibilité</a></li>

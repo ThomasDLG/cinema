@@ -1,5 +1,5 @@
 <?php
-$title = 'A propos';
+$title = 'Tarifs';
 include("inc/header.php");
 ?>
 

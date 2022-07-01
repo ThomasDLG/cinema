@@ -236,7 +236,7 @@ video {
   --dark: #282525;
   --white: #fff;
   --black: #000;
-  ---main-font: "Montserrat", sans-serif;
+  --main-font: "Montserrat", sans-serif;
 }
 
 .code {
@@ -1123,4 +1123,4 @@ a {
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
-}
+}/*# sourceMappingURL=main.css.map */
