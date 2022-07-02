@@ -118,8 +118,14 @@ include("inc/header.php");
     <section id="diner" class="section-64">
       <div class="container">
         <h2 class="text-dark my-2 pl-2">Luxe Diner</h2>
-        <div class="luxediner d-flex row justify-between">
+        <div class="luxediner d-flex row wrap justify-between">
           <!-- CARD 1 -->
+          <div class="card-horizontal relative my-2 mx-2">
+            <h4 class="text-light absolute pb-2">Text</h4>
+            <a href="">
+              <img src="src/img1.jpg" alt="">
+            </a>
+          </div>
           <div class="card-md relative my-2 mx-2">
             <h4 class="text-light absolute pb-2">Text</h4>
             <a href="">

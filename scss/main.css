@@ -1127,7 +1127,8 @@ a {
 
 .card-xs h4,
 .card-md h4,
-.card-lg h4 {
+.card-lg h4,
+.card-horizontal h4 {
   background-color: rgba(0, 0, 0, 0.35);
   display: flex;
   justify-content: center;
@@ -1148,7 +1149,8 @@ a {
 }
 .card-xs h4:hover,
 .card-md h4:hover,
-.card-lg h4:hover {
+.card-lg h4:hover,
+.card-horizontal h4:hover {
   opacity: 1;
   transition: 0.3s;
 }
