@@ -33,7 +33,7 @@
 
     <header id="navbar" class="relative">
       <div class="container">
-        <div class="navbar">
+        <div class="navbar py-1">
           <div class="logo-navbar">
             <h1><a href="index.php"><img src="src/logo.svg" alt="logo l'étoile"></a></h1>
           </div>
@@ -44,17 +44,17 @@
           </div>
           <div class="naviguation-navbar">
             <nav>
-              <ul>
-                <li><a href="index.php"><img src="src/icons/home.svg" alt="">Accueil</a></li>
-                <li><a href="#"><img src="src/icons/films.svg" alt="">Films</a></li>
-                <li><a href="mytoile.php"><img src="src/icons/bookmark.svg" alt="">My-Toile</a></li>
-                <li><a class="plusbtn" href="#"><img src="src/icons/about.svg" alt="">Plus</a></li>
-                <li><a href="#" id="searching"><img src="src/icons/search.svg" alt="">Recherche</a></li>
+              <ul class="list">
+                <li class="d-inline mr-1"><a class="text-dark bold" href="index.php"><img src="src/icons/home.svg" alt="">Accueil</a></li>
+                <li class="d-inline mr-1"><a class="text-dark bold" href="#"><img src="src/icons/films.svg" alt="">Films</a></li>
+                <li class="d-inline mr-1"><a class="text-dark bold" href="mytoile.php"><img src="src/icons/bookmark.svg" alt="">My-Toile</a></li>
+                <li class="d-inline mr-1"><a class="plusbtn text-dark bold" href="#"><img src="src/icons/about.svg" alt="">Plus</a></li>
+                <li class="d-inline mr-1"><a class="text-dark bold" href="#" id="searching"><img src="src/icons/search.svg" alt="">Recherche</a></li>
               </ul>
             </nav>
           </div>
           <div class="login-navbar">
-            <a href="#">Connexion<img src="src/icons/login.svg" alt=""></a>
+            <a class="text-dark bold" href="#">Connexion<img class="ml-1" src="src/icons/login.svg" alt=""></a>
           </div>
         </div>
       </div>

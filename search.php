@@ -55,7 +55,7 @@ $data = json_decode($response);
                     foreach ($data as $value) {
                           if (is_array($value) || is_object($value)){
                               foreach ($value as $films) {
-                                  echo '<div class="my-2 mx-2 relative my-2 mx-2 relative card">';
+                                  echo '<div class="card-xs my-2 mx-2 relative">';
                                       echo '<a href="#">';
                                           echo '<img src="' . 'https://image.tmdb.org/t/p/w500' . $films->poster_path . '" alt="' . $films->original_title . '">';
                                       echo '</a>';
