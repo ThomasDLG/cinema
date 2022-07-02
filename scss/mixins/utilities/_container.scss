@@ -1,6 +1,7 @@
 .container {
   width: 1100px;
   margin: 0 auto;
+  min-height: 100%;
 }
 
 .container-fluid {
@@ -34,4 +35,11 @@
   .container {
     width: 328px;
   }
+}
+
+.container-content {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
