@@ -1,0 +1,44 @@
+.option-active {
+    display: block!important;
+  }
+
+.select-container {
+    position: relative;
+    width: 100%;
+    padding: 0 16px;
+    user-select: none;
+}
+
+.select {
+    background-color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px 0;
+}
+
+.option-container {
+    display: none;
+}
+
+.option-container a {
+    display: block;
+}
+
+.select__trigger {
+    font-family: var(--main-font);
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.option-select {
+    padding: 12px 0 12px 16px;
+    border-bottom: 1px solid var(--light);
+    &:hover {
+        background-color: var(--primary-hover);
+        border-bottom: 1px solid var(--primary);
+        color: var(--light);
+    }
+}
