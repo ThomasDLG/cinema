@@ -487,6 +487,11 @@ a {
   position: absolute;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .py-0,
 .pt-0 {
   padding-top: 0px;
@@ -1237,4 +1242,41 @@ a {
   background-color: var(--primary-hover);
   border-bottom: 1px solid var(--primary);
   color: var(--light);
-}/*# sourceMappingURL=main.css.map */
+}
+
+#footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 24px;
+}
+
+.footer-content ul {
+  padding: 0;
+}
+
+.footer-content ul li {
+  list-style: none;
+  margin: 12px 0;
+}
+
+.footer-content .social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content .social-icons i {
+  font-size: 24px;
+}
+
+.footer-content form {
+  display: flex;
+  flex-wrap: nowrap;
+}
