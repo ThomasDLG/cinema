@@ -267,7 +267,6 @@ video {
 .container {
   width: 1100px;
   margin: 0 auto;
-  min-height: 100%;
 }
 
 .container-fluid {
@@ -1242,12 +1241,6 @@ a {
   background-color: var(--primary-hover);
   border-bottom: 1px solid var(--primary);
   color: var(--light);
-}
-
-#footer {
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .footer {

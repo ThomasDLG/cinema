@@ -1,8 +1,3 @@
-html,
-body {
-  min-height: 100vh;
-}
-
 /* NAVBAR */
 
 #navbar {
@@ -23,6 +18,12 @@ body {
 
 .plus-item ul li a {
   color: var(--etoile-dark);
+}
+
+/* ABOUT */
+
+#about {
+  height: calc(100vh - 350px);
 }
 
 /* MYTOILE */
