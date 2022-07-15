@@ -1,4 +1,4 @@
-<footer id="footer" class="section-32 secondary">
+<footer id="footer" class="section-32 secondary relative">
       <div class="container">
         <div class="footer">
           <!-- CONTENT-1 -->

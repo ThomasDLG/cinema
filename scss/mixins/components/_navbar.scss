@@ -99,11 +99,13 @@
   caret-color: var(--primary);
   font-size: 32px;
   font-weight: bold;
+  font-family: var(--main-font);
 }
 
 .searching-popup-input::placeholder {
   color: var(--white);
   font-weight: bold;
+  font-family: var(--main-font);
 }
 
 .submit-searching {
