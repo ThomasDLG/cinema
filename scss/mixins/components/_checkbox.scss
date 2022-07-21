@@ -1,52 +1,4 @@
-.radio-date {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin: 0 16px;
-}
-
-.radio-text {
-    position: absolute;
-    pointer-events: none;
-    font-family: var(--main-font);
-    font-weight: 700;
-    color: var(--dark);
-    z-index: 10;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.radio-date .radio-text {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.radio-text span {
-    vertical-align: bottom;
-}
-
-.radio-date input[type=radio] {
-    appearance: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    background-color: var(--white);
-    border: 2px solid var(--light);
-    transition: .2s ease-in;
-}
-
-.radio-date input:checked{
-    border: 2px solid var(--primary);
-    transition: .2s ease-in;
-}
-
-// RADIO-RED
+// CHECKBOX
 
 .control {
     font-family: arial;
@@ -71,7 +23,7 @@
     width: 20px;
     background: #e6e6e6;
     border: 0px solid #000000;
-    border-radius: undefinedpx;
+    border-radius: 0px;
 }
 .control:hover input ~ .control_indicator,
 .control input:focus ~ .control_indicator {
@@ -99,22 +51,19 @@
 .control input:checked ~ .control_indicator:after {
     display: block;
 }
-.control-radio .control_indicator {
-    border-radius: 50%;
+.control-checkbox .control_indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
-
-.control-radio .control_indicator:after {
-    left: 5px;
-    top: 5px;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background: #ffffff;
-    transition: background 250ms;
+.control-checkbox input:disabled ~ .control_indicator:after {
+    border-color: #7b7b7b;
 }
-.control-radio input:disabled ~ .control_indicator:after {
-    background: #7b7b7b;
-}.control-radio .control_indicator::before {
+.control-checkbox .control_indicator::before {
     content: '';
     display: block;
     position: absolute;
@@ -124,7 +73,7 @@
     height: 4.5rem;
     margin-left: -1.3rem;
     margin-top: -1.3rem;
-    background: var(--primary);
+    background: #2aa1c0;
     border-radius: 3rem;
     opacity: 0.6;
     z-index: 99999;
@@ -132,14 +81,13 @@
 }
 @keyframes s-ripple {
     0% {
-        opacity: 0;
         transform: scale(0);
     }
     20% {
         transform: scale(1);
     }
     100% {
-        opacity: 0.01;
+        opacity: 0;
         transform: scale(1);
     }
 }
@@ -158,10 +106,9 @@
         transform: scale(1);
     }
 }
-.control-radio input + .control_indicator::before {
+.control-checkbox input + .control_indicator::before {
     animation: s-ripple 250ms ease-out;
 }
-.control-radio input:checked + .control_indicator::before {
+.control-checkbox input:checked + .control_indicator::before {
     animation-name: s-ripple-dup;
 }
-

@@ -167,13 +167,141 @@
 
             </div>
 
+            <!-- RADIO DATE -->
+
+            <div id="radiodate" class="d-flex justify-center wrap">
+                <?php
+                $radiodate =
+                '<div class="container">
+                <div id="radio" class="d-flex justify-center wrap">
+                  <div class="radio-date">
+                  <label for="date" class="radio-text">
+                  <span class="text-center d-block w-100">MER</span>
+                  <span class="text-center d-block w-100">05</span>
+                  <span class="text-center d-block w-100">JANV</span>
+                  </label>
+                  <input type="radio" id="date" name="selector">
+                </div>
+
+                <div id="radio" class="d-flex justify-center wrap">
+                  <div class="radio-date">
+                  <label for="date" class="radio-text">
+                  <span class="text-center d-block w-100">MER</span>
+                  <span class="text-center d-block w-100">05</span>
+                  <span class="text-center d-block w-100">JANV</span>
+                  </label>
+                  <input type="radio" id="date" name="selector">
+                </div>
+
+                <div id="radio" class="d-flex justify-center wrap">
+                  <div class="radio-date">
+                  <label for="date" class="radio-text">
+                  <span class="text-center d-block w-100">MER</span>
+                  <span class="text-center d-block w-100">05</span>
+                  <span class="text-center d-block w-100">JANV</span>
+                  </label>
+                  <input type="radio" id="date" name="selector">
+                </div>
+                </div>';
+                ?>
+                <h2 class="text-center w-100">Radio Date</h2>
+
+            <div class="container">
             <div id="radio" class="d-flex justify-center wrap">
-              <form action="">
-              <label class="" for="input">Label</label>
-              <input type="text" placeholder="text sample" id="input">
-              </form>
+              <div class="radio-date">
+              <label for="date" class="radio-text">
+              <span class="text-center d-block w-100">MER</span>
+              <span class="text-center d-block w-100">05</span>
+              <span class="text-center d-block w-100">JANV</span>
+              </label>
+              <input type="radio" id="date" name="selector">
+            </div>
+
+            <div id="radio" class="d-flex justify-center wrap">
+              <div class="radio-date">
+              <label for="date" class="radio-text">
+              <span class="text-center d-block w-100">MER</span>
+              <span class="text-center d-block w-100">05</span>
+              <span class="text-center d-block w-100">JANV</span>
+              </label>
+              <input type="radio" id="date" name="selector">
+            </div>
+
+            <div id="radio" class="d-flex justify-center wrap">
+              <div class="radio-date">
+              <label for="date" class="radio-text">
+              <span class="text-center d-block w-100">MER</span>
+              <span class="text-center d-block w-100">05</span>
+              <span class="text-center d-block w-100">JANV</span>
+              </label>
+              <input type="radio" id="date" name="selector">
+            </div>
+            </div>
+            </div>
+            <div class="container">
+              <textarea class="code w-100 h-auto" id="radiodate" value="<?= htmlentities($radiodate) ?>"><?= htmlentities($radiodate) ?></textarea>
+              <button class="copy" data-clipboard-target="#radiodate"><i class="fa-solid fa-copy"></i></button>
             </div>
         </div>
+
+        <!-- RADIO -->
+
+        <div class="container">
+        <div class="control-group">
+    <label class="control control-radio">
+        First radio
+            <input type="radio" name="radio" checked="checked" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-radio">
+        Second radio
+            <input type="radio" name="radio" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-radio">
+        Disabled
+            <input type="radio" name="radio2" disabled="disabled" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-radio">
+        Disabled & checked
+            <input type="radio" name="radio2" disabled="disabled" checked="checked" />
+        <div class="control_indicator"></div>
+    </label>
+</div>
+
+      <!-- CHECKBOX -->
+
+      <div class="control-group">
+    <label class="control control-checkbox">
+        First checkbox
+            <input type="checkbox" checked="checked" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox">
+        Second checkbox
+            <input type="checkbox" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox">
+        Third checkbox
+            <input type="checkbox" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox">
+        Disabled
+            <input type="checkbox" disabled="disabled" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox">
+        Disabled & checked
+            <input type="checkbox" disabled="disabled" checked="checked" />
+        <div class="control_indicator"></div>
+    </label>
+</div>
+
+        </div>
+
     </section>
 <script src="../../js/dist/clipboard.min.js"></script>
 <script>

@@ -16,6 +16,19 @@ function toggleAccordion() {
 
 items.forEach((item) => item.addEventListener("click", toggleAccordion));
 
+// RADIO DATE BUTTON
+
+// let radioDate = document.querySelectorAll(".radio-date input[type=radio]");
+// let radioText = document.querySelector(".radio-text");
+
+// radioDate.array.forEach(button => {
+//   if (button.checked) {
+//     radioText.classList.add("text-light")
+//   } else {
+//     radioText.classList.add("text-dark")
+//   }
+// });
+
 // SEARCHING POPUP
 
 let search = document.getElementById("searching");
@@ -51,3 +64,4 @@ select.addEventListener("click", function () {
   console.log("click");
   optionContainer.classList.toggle("option-active");
 });
+
