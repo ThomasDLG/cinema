@@ -46,7 +46,7 @@
             <nav>
               <ul class="list">
                 <li class="d-inline mr-1"><a class="text-dark bold" href="index.php"><img src="src/icons/home.svg" alt="">Accueil</a></li>
-                <li class="d-inline mr-1"><a class="text-dark bold" href="#"><img src="src/icons/films.svg" alt="">Films</a></li>
+                <li class="d-inline mr-1"><a class="text-dark bold" href="films.php"><img src="src/icons/films.svg" alt="">Films</a></li>
                 <li class="d-inline mr-1"><a class="text-dark bold" href="mytoile.php"><img src="src/icons/bookmark.svg" alt="">My-Toile</a></li>
                 <li class="d-inline mr-1"><a class="plusbtn text-dark bold" href="#"><img src="src/icons/about.svg" alt="">Plus</a></li>
                 <li class="d-inline mr-1"><a class="text-dark bold" href="#" id="searching"><img src="src/icons/search.svg" alt="">Recherche</a></li>
