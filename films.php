@@ -64,27 +64,6 @@ include("inc/header.php");
                   </div>
 
                 </div>
-          <?php
-              echo '<div class="select-container">';
-                echo '<div class="select">';
-                  echo '<div class="select__trigger"><span>';
-                  if(empty($_GET["genre"])) {
-                      echo "Filtrer par genres";
-                  } else {
-                    echo $_GET["genre"];
-                  }
-                  echo'</span>';
-                  echo '</div>';
-                echo '</div>';
-                  echo '<div class="option-container">';
-                  foreach ($genres as $key => $value) {
-                    echo '<a href="index.php?genre=' . $key . '"><div class="option-select">';
-                      echo '<span class="option selected" data-value="' . $value["nom"] . '">' . $value["nom"] . '</span>';
-                    echo '</div></a>';
-            }
-                  echo '</div>';
-                echo '</div>';
-          ?>
             <div class="d-flex row wrap justify-between wrapper">
             <?php
             foreach ($data as $value) {
@@ -94,7 +73,7 @@ include("inc/header.php");
                       $movieCount++;
                       if ($movieCount < 9) {
                         echo '<div class="card-xs my-2 mx-2 relative">';
-                            echo '<a href="">';
+                            echo '<a href="filmsinfo.php?name=' . $films->original_title . '&id=' . $films->id . '">';
                                 echo '<img src="' . 'https://image.tmdb.org/t/p/w500' . $films->poster_path . '" alt="' . $films->original_title . '">';
                             echo '</a>';
                         echo '</div>';

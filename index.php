@@ -46,7 +46,7 @@ include("inc/header.php");
                       $movieCount++;
                       if ($movieCount < 9) {
                         echo '<div class="card-xs my-2 mx-2 relative">';
-                            echo '<a href="">';
+                            echo '<a href="filmsinfo.php?name=' . $films->original_title . '&id=' . $films->id . '">';
                                 echo '<img src="' . 'https://image.tmdb.org/t/p/w500' . $films->poster_path . '" alt="' . $films->original_title . '">';
                             echo '</a>';
                         echo '</div>';
