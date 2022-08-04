@@ -979,6 +979,16 @@ a {
   padding-right: 10px;
 }
 
+.link-icon-right i {
+  vertical-align: baseline;
+  padding-left: 10px;
+}
+
+.link-icon-left i {
+  vertical-align: baseline;
+  padding-right: 10px;
+}
+
 .newsletter {
   width: calc(100% - 60px);
   height: 40px;
