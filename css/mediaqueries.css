@@ -226,3 +226,16 @@
     overflow-y: auto !important;
   }
 }
+
+/* LOGIN */
+
+@media screen and (max-width: 768px) {
+   .footer-content .w50 {
+    width: 100%!important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-content .w-50 {
+    width: 100%!important;
+  }
+}

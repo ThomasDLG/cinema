@@ -22,7 +22,8 @@
 
 /* ABOUT */
 
-#about {
+#about,
+#login {
   height: calc(100vh - 350px);
 }
 
