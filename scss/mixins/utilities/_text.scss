@@ -41,6 +41,11 @@ a {
   font-weight: 400;
 }
 
+li {
+  font-family: var(--main-font);
+  color: var(--dark);
+}
+
 .text-center {
   text-align: center;
 }

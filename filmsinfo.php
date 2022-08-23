@@ -178,7 +178,9 @@ include("inc/header.php");
 
 <h3 class="text-light py-3">Heure :</h3>
 
-<a href="#" class="btn w-100 py-3">Réserver</a>
+<?php
+    echo '<a href="reservation.php?movieName=' . $movieName . '" class="btn w-100 py-3">Réserver</a>';
+?>
         </div>
     </section>
     <section class="section-64">

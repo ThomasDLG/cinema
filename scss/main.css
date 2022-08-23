@@ -355,6 +355,11 @@ a {
   font-weight: 400;
 }
 
+li {
+  font-family: var(--main-font);
+  color: var(--dark);
+}
+
 .text-center {
   text-align: center;
 }
@@ -1520,6 +1525,17 @@ a {
   transition: 0.3s;
 }
 
+.menu-card {
+  width: 350px;
+  height: auto;
+}
+
+.menu-img img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
 .option-active {
   display: block !important;
 }
@@ -1597,4 +1613,16 @@ a {
 .footer-content form {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.screen {
+  width: 100%;
+  height: 100px;
+  border-top: 5px solid #000;
+  border-radius: 50%;
+}
+
+.screen p {
+  left: calc(50% - 45.5px);
+  bottom: 48px;
 }/*# sourceMappingURL=main.css.map */
