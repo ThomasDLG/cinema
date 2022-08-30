@@ -66,7 +66,8 @@
     </footer>
 
     <script src="js/app.js" defer></script>
-    <script src="js/api_request.js"></script>
+    <script src="js/api_request.js" defer></script>
+    <script src="js/payment.js" defer></script>
 
     
   </body>

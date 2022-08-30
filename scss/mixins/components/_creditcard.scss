@@ -1,0 +1,177 @@
+.container-creditcard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-creditcard form{
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    padding-top: 160px;
+}
+
+.container-creditcard form .inputBox{
+    margin-top: 20px;
+}
+
+.container-creditcard form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+}
+
+.container-creditcard form .inputBox input,
+.container-creditcard form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+
+.container-creditcard form .flexbox{
+    display: flex;
+    gap:15px;
+}
+
+.container-creditcard form .flexbox .inputBox{
+    flex:1 1 150px;
+}
+
+.container-creditcard form .submit-btn{
+    width: 100%;
+    background-color: #e62140;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.container-creditcard .card-container{
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.container-creditcard .card-container .front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, #3a43659d, #3E455F);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+}
+
+.container-creditcard .card-container .front .image{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.container-creditcard .card-container .front .image img{
+    height: 50px;
+}
+
+.container-creditcard .card-container .front .card-number-box{
+    padding:30px 0;
+    font-size: 22px;
+    color:#fff;
+}
+
+.container-creditcard .card-container .front .flexbox{
+    display: flex;
+}
+
+.container-creditcard .card-container .front .flexbox .box:nth-child(1){
+    margin-right: auto;
+}
+
+.container-creditcard .card-container .front .flexbox .box{
+    font-size: 15px;
+    color:#fff;
+}
+
+.container-creditcard .card-container .back{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg, #3a43659d, #3E455F);
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .4s ease-out;
+}
+
+.container-creditcard .card-container .back .stripe{
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.container-creditcard .card-container .back .box{
+    padding: 0 20px;
+}
+
+.container-creditcard .card-container .back .box span{
+    color:#fff;
+    font-size: 15px;
+}
+
+.container-creditcard .card-container .back .box .cvv-box{
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container-creditcard .card-container .back .box img{
+    margin-top: 30px;
+    height: 30px;
+}
+
+.payment-option p{
+    font-size: 12px;
+}
+
+.visa img {
+    height: 12px;
+}
+
+.paypal img,
+.apple img {
+    height: 20px;
+}
+
+.visa,
+.paypal,
+.apple {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+}
