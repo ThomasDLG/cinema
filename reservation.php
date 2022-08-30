@@ -249,6 +249,153 @@ include("inc/header.php");
 <section id="seat" class="section-64">
     <div class="container">
         <h2 class="text-dark">Une petite faim ?</h2>
+        <div class="food-list d-flex wrap justify-between">
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Popcorn</p>
+                <img src="src/food/popcorn.png" alt="">
+                <p>5.90 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Doritos</p>
+                <img src="src/food/doritos.png" alt="">
+                <p>3.50 € €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Guimauve</p>
+                <img src="src/food/guimauve.png" alt="">
+                <p>3.10 € €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Hot-dog</p>
+                <img src="src/food/hotdogs.png" alt="">
+                <p>7.90 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Nuggets</p>
+                <img src="src/food/nuggets.png" alt="">
+                <p>6.50 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Sticks</p>
+                <img src="src/food/mozarella.png" alt="">
+                <p>6.90 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Cocacola</p>
+                <img src="src/food/cocacola.png" alt="">
+                <p>2.50 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Ice-tea</p>
+                <img src="src/food/ice-tea.png" alt="">
+                <p>2.50 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-item d-flex col align-center text-center my-2">
+                <p>Evian</p>
+                <img src="src/food/evian.png" alt="">
+                <p>1.90 €</p>
+
+                <div class="select-food d-flex">
+                    <div class="select-plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                        <span>0</span>
+                    <div class="select-minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 

@@ -1540,6 +1540,32 @@ li {
   border-radius: 5px;
 }
 
+.food-item {
+  width: 100px;
+}
+
+.select-food {
+  margin-top: 8px;
+}
+
+.select-food span {
+  font-family: var(--main-font);
+  font-size: 24px;
+  padding: 0 8px;
+}
+
+.select-plus,
+.select-minus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #c4c4c4;
+}
+
 .option-active {
   display: block !important;
 }
