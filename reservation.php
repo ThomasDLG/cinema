@@ -402,6 +402,7 @@ include("inc/header.php");
 <section id="seat" class="section-64">
     <div class="container">
         <h2 class="text-dark">Une grande faim ? <br> Choisissez Luxe Diner !</h2>
+
         <div class="menu-card">
             <h4 class="text-dark">Menu...</h4>
             <div class="menu-content my-3 d-flex justify-arround">
@@ -410,21 +411,118 @@ include("inc/header.php");
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
-                    <li class="list-item">Paragraph sample text</li>
-                    <li class="list-item">Paragraph sample text</li>
-                    <li class="list-item">Paragraph sample text</li>
-                    <li class="list-item">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
                 </ul>
                 </div>
             </div>
-            <a href="#" class="btn btn-icon-right">Button Icon Right<i class="fa-solid fa-plus"></i></a>
+            <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
         </div>
+
+        <div class="menu-card">
+            <h4 class="text-dark">Menu...</h4>
+            <div class="menu-content my-3 d-flex justify-arround">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                </div>
+                <div class="menu-list pl-2">
+                <ul class="list">
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                </ul>
+                </div>
+            </div>
+            <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
+        </div>
+
+        <div class="menu-card">
+            <h4 class="text-dark">Menu...</h4>
+            <div class="menu-content my-3 d-flex justify-arround">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                </div>
+                <div class="menu-list pl-2">
+                <ul class="list">
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                </ul>
+                </div>
+            </div>
+            <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
+        </div>
+
+        <div class="menu-card">
+            <h4 class="text-dark">Menu...</h4>
+            <div class="menu-content my-3 d-flex justify-arround">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                </div>
+                <div class="menu-list pl-2">
+                <ul class="list">
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pb-1">Paragraph sample text</li>
+                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                </ul>
+                </div>
+            </div>
+            <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
+        </div>
+
     </div>
 </section>
 
 <section id="seat" class="section-64">
     <div class="container">
         <h2 class="text-dark">Récapitulatif de votre réservation</h2>
+
+        <h4>Tickets</h4>
+        <p class="mb-3">Total : 14.90 €</p>
+
+        <div class="cart-item main-font d-flex py-2 px-2 justify-between">
+            <span>Place <strong>B27</strong></span><span> | </span><span>Avatar</span><span> | </span><span>20h00 - <strong>7,45 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+
+        <br>
+
+        <div class="cart-item main-font d-flex py-2 px-2 justify-between">
+            <span>Place <strong>B28</strong></span><span> | </span><span>Avatar</span><span> | </span><span>20h00 - <strong>7,45 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+
+        <h4 class="mt-3">Nouritures & boissons</h4>
+        <p class="mb-3">Total : 14.40 € €</p>
+
+        <div class="cart-item main-font d-flex py-2 px-2 justify-between">
+            <span>Popcorn - <strong>5.90 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+
+        <br>
+
+        <div class="cart-item main-font d-flex py-2 px-2 justify-between">
+            <span>Doritos - <strong>3.50 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+
+        <br>
+
+        <div class="cart-item main-font d-flex py-2 px-2 justify-between">
+            <span>Cocacola - <strong>2.50 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+
+        <br>
+
+        <div class="cart-item main-font d-flex py-2 px-2 justify-between">
+            <span>Cocacola - <strong>2.50 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
+        </div>
     </div>
 </section>
 <?php
