@@ -246,7 +246,7 @@ include("inc/header.php");
     </div>
 </section>
 
-<section id="seat" class="section-64">
+<section id="food" class="section-64">
     <div class="container">
         <h2 class="text-dark">Une petite faim ?</h2>
         <div class="food-list d-flex wrap justify-between">
@@ -399,11 +399,11 @@ include("inc/header.php");
     </div>
 </section>
 
-<section id="seat" class="section-64">
-    <div class="container">
-        <h2 class="text-dark">Une grande faim ? <br> Choisissez Luxe Diner !</h2>
+<section id="menu" class="section-64">
+<h2 class="text-dark">Une grande faim ? <br> Choisissez Luxe Diner !</h2>
+    <div class="container d-flex wrap justify-between">
 
-        <div class="menu-card">
+        <div class="menu-card w-40 py-2">
             <h4 class="text-dark">Menu...</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
@@ -422,7 +422,7 @@ include("inc/header.php");
             <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
         </div>
 
-        <div class="menu-card">
+        <div class="menu-card w-40 py-2">
             <h4 class="text-dark">Menu...</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
@@ -441,7 +441,7 @@ include("inc/header.php");
             <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
         </div>
 
-        <div class="menu-card">
+        <div class="menu-card w-40">
             <h4 class="text-dark">Menu...</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
@@ -460,7 +460,7 @@ include("inc/header.php");
             <a href="#" class="btn btn-icon-right d-flex justify-center">Choisir<i class="fa-solid fa-plus"></i></a>
         </div>
 
-        <div class="menu-card">
+        <div class="menu-card w-40">
             <h4 class="text-dark">Menu...</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
@@ -482,7 +482,7 @@ include("inc/header.php");
     </div>
 </section>
 
-<section id="seat" class="section-64">
+<section id="checkout" class="section-64">
     <div class="container">
         <h2 class="text-dark">Récapitulatif de votre réservation</h2>
 
@@ -523,6 +523,12 @@ include("inc/header.php");
         <div class="cart-item main-font d-flex py-2 px-2 justify-between">
             <span>Cocacola - <strong>2.50 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
         </div>
+
+        <div class="d-flex justify-between my-3">
+            <h4><strong>Total :</strong></h4>
+            <h4><strong>29.30 €</strong></h4>
+        </div>
+        <a href="payment.php" class="btn d-flex justify-center">Payer</a>
     </div>
 </section>
 <?php

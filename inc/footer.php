@@ -35,7 +35,7 @@
                 <img src="src/icons/sent-white.svg" alt="" />
               </button>
             </form>
-            <p>Inscrivez-vous à la newsletter</p>
+            <p class="text-light mt-2">Inscrivez-vous à la newsletter</p>
           </div>
 
           <!-- CONTENT-3 -->
