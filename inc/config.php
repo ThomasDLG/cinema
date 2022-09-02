@@ -29,6 +29,54 @@ $events = array(
   ),
 );
 
+$food = array(
+  array(
+    "nom" => "Popcorn",
+    "image" => "src/food/popcorn.png",
+    "prix" => "5.90€",
+  ),
+  array(
+    "nom" => "Doritos",
+    "image" => "src/food/doritos.png",
+    "prix" => "3.50€",
+  ),
+  array(
+    "nom" => "Guimauve",
+    "image" => "src/food/guimauve.png",
+    "prix" => "3.10€",
+  ),
+  array(
+    "nom" => "Hot-Dog",
+    "image" => "src/food/hotdogs.png",
+    "prix" => "7.90€",
+  ),
+  array(
+    "nom" => "Nuggets",
+    "image" => "src/food/nuggets.png",
+    "prix" => "6.50€",
+  ),
+  array(
+    "nom" => "Sticks",
+    "image" => "src/food/mozarella.png",
+    "prix" => "6.90€",
+  ),
+  array(
+    "nom" => "Cocacola",
+    "image" => "src/food/cocacola.png",
+    "prix" => "2.50€",
+  ),
+  array(
+    "nom" => "Ice-Tea",
+    "image" => "src/food/ice-tea.png",
+    "prix" => "2.50€",
+  ),
+  array(
+    "nom" => "Evian",
+    "image" => "src/food/evian.png",
+    "prix" => "1.90€",
+  ),
+);
+
 $genres = array(
   "Action" => array('nom' => 'Action', 'url' => 'discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2021-01-01&with_genres=28&without_genres=35%2C12%2C16%2C80%2C99%2C18%2C10751%2C14%2C36%2C27%2C10402%2C9648%2C10749%2C878%2C10770%2C53%2C10752%2C37&with_watch_monetization_types=buy'),
   "Aventure" => array('nom' => 'Aventure', 'url' => 'discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2021-01-01&with_genres=12&without_genres=35%2C28%2C16%2C80%2C99%2C18%2C10751%2C14%2C36%2C27%2C10402%2C9648%2C10749%2C878%2C10770%2C53%2C10752%2C37%2C&with_watch_monetization_types=buy'),
@@ -48,12 +96,12 @@ $genres = array(
   "Western" => array('nom' => 'Western', 'url' => 'discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2021-01-01&with_genres=10752&without_genres=16%2C28%2C12%2C35%2C99%2C80%2C18%2C10751%2C14%2C36%2C10402%2C27%2C9648%2C10749%2C10770%2C878%2C53%2C37%2C&with')
 );
 
-$mainUrl = "discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&primary_release_date.gte=2000-04-01&primary_release_date.lte=2022-06-14&language=fr-FR";
+$mainUrl = "discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&primary_release_date.gte=2000-04-01&primary_release_date.lte=2022-06-14&language=fr-FR&adult=false";
 
 if (!empty($_GET["genre"])) {
   $mainUrl = $genres[$_GET["genre"]]["url"];
 } else {
-  $mainUrl = "discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&primary_release_date.gte=2000-04-01&primary_release_date.lte=2022-06-14&language=fr-FR";
+  $mainUrl = "discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&primary_release_date.gte=2000-04-01&primary_release_date.lte=2022-06-14&language=fr-FR&adult=false";
 }
 try {
 
@@ -72,7 +120,7 @@ try {
     curl_setopt($ch, CURLOPT_MAXREDIRS, 3);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
-    curl_setopt($cs, CURLOPT_URL, 'https://api.themoviedb.org/3/movie/upcoming?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR');
+    curl_setopt($cs, CURLOPT_URL, 'https://api.themoviedb.org/3/movie/upcoming?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&adult=false');
     curl_setopt($cs, CURLOPT_HEADER, false);
     curl_setopt($cs, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($cs, CURLOPT_CONNECTTIMEOUT, 15);
