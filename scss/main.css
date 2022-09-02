@@ -1529,6 +1529,10 @@ li {
   transition: 0.3s;
 }
 
+#checkout .card-xs img {
+  width: auto;
+}
+
 .menu-card {
   height: auto;
 }
@@ -1841,4 +1845,4 @@ li {
   border-radius: 5px;
   border: 1px solid #E2E2E2;
   text-align: center;
-}/*# sourceMappingURL=main.css.map */
+}
