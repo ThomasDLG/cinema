@@ -11,7 +11,7 @@ try {
 
     curl_setopt($ch, CURLOPT_VERBOSE, 0);
 
-    curl_setopt($ch, CURLOPT_URL, 'https://api.themoviedb.org/3/search/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&query=' . $research . '&page=1&include_adult=false');
+    curl_setopt($ch, CURLOPT_URL, 'https://api.themoviedb.org/3/search/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&query=' . $research . '&page=1&adult=false');
     curl_setopt($ch, CURLOPT_HEADER, false);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 15);

@@ -10,238 +10,43 @@ include("inc/header.php");
         <div class="relative screen">
             <p class="absolute text-dark">Écran</p>
         </div>
-        <div class="seat d-flex justify-between">
-
-        <!-- COLUMN 1 -->
-
-        <div class="seat-column">
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-        </div>
-
-        <!-- COLUMN 2 -->
-
-        <div class="seat-column">
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-        </div>
-
-        <!-- COLUMN  3-->
-
-        <div class="seat-column">
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-            <div>
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="checkbox" name="" id="">
-            </div>
-        </div>
+        <div class="d-flex row justify-between">
+        <?php
+        echo '<div>';
+            for ($i=0; $i < 10; $i++) {
+                echo '<div>';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                echo '</div>';
+            }
+        echo '</div>';
+        ?>
+        <?php
+        echo '<div>';
+            for ($i=0; $i < 10; $i++) {
+                echo '<div>';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                echo '</div>';
+            }
+        echo '</div>';
+        ?>
+        <?php
+        echo '<div>';
+            for ($i=0; $i < 10; $i++) {
+                echo '<div>';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                    echo '<input type="checkbox" id="">';
+                echo '</div>';
+            }
+        echo '</div>';
+        ?>
         </div>
     </div>
 </section>
@@ -251,156 +56,34 @@ include("inc/header.php");
         <h2 class="text-dark">Une petite faim ?</h2>
         <div class="food-list d-flex wrap justify-between">
 
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Popcorn</p>
-                <img src="src/food/popcorn.png" alt="">
-                <p>5.90 €</p>
+        <?php
+            foreach ($food as $key => $value) {
+                echo '<div class="food-item d-flex col align-center text-center my-2">';
+                echo '<p>' . $value["nom"] . '</p>';
+            echo '<img src="' . $value["image"] . '" alt="">';
+            echo '<p>' . $value["prix"] . '</p>';
 
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Doritos</p>
-                <img src="src/food/doritos.png" alt="">
-                <p>3.50 € €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Guimauve</p>
-                <img src="src/food/guimauve.png" alt="">
-                <p>3.10 € €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Hot-dog</p>
-                <img src="src/food/hotdogs.png" alt="">
-                <p>7.90 €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Nuggets</p>
-                <img src="src/food/nuggets.png" alt="">
-                <p>6.50 €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Sticks</p>
-                <img src="src/food/mozarella.png" alt="">
-                <p>6.90 €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Cocacola</p>
-                <img src="src/food/cocacola.png" alt="">
-                <p>2.50 €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Ice-tea</p>
-                <img src="src/food/ice-tea.png" alt="">
-                <p>2.50 €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="food-item d-flex col align-center text-center my-2">
-                <p>Evian</p>
-                <img src="src/food/evian.png" alt="">
-                <p>1.90 €</p>
-
-                <div class="select-food d-flex">
-                    <div class="select-plus">
-                        <i class="fa-solid fa-plus"></i>
-                    </div>
-                        <span>0</span>
-                    <div class="select-minus">
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                </div>
-            </div>
+            echo '<div class="select-food d-flex">';
+                echo '<div class="select-plus">';
+                    echo '<i class="fa-solid fa-plus"></i>';
+                echo '</div>';
+                    echo '<span>0</span>';
+                    echo '<div class="select-minus">';
+                        echo '<i class="fa-solid fa-minus"></i>';
+                    echo '</div>';
+                echo '</div>';
+            echo '</div>';
+            }
+        ?>
 
         </div>
     </div>
 </section>
 
 <section id="menu" class="section-64">
-<h2 class="text-dark">Une grande faim ? <br> Choisissez Luxe Diner !</h2>
+    <div class="container">
+        <h2 class="text-dark">Une grande faim ? <br> Choisissez Luxe Diner !</h2>
+    </div>
     <div class="container d-flex wrap justify-between">
 
         <div class="menu-card w-40 py-2">
