@@ -164,13 +164,13 @@
 
 @media screen and (max-width: 960px) {
   .luxediner .card-md img {
-    width: 200px!important;
-    height: 300px!important;
+    width: 200px !important;
+    height: 300px !important;
   }
 }
 @media screen and (max-width: 768px) {
   .luxediner .card-md:nth-child(2) {
-    display: none!important;
+    display: none !important;
   }
   .luxediner .card-horizontal {
     display: block;
@@ -178,11 +178,11 @@
 }
 @media screen and (max-width: 480px) {
   .luxediner .card-horizontal img {
-    height: 130px!important;
+    height: 130px !important;
   }
   .luxediner .card-md img {
-    width: 130px!important;
-    height: 250px!important;
+    width: 130px !important;
+    height: 250px !important;
   }
 }
 
@@ -230,12 +230,44 @@
 /* LOGIN */
 
 @media screen and (max-width: 768px) {
-   .footer-content .w50 {
-    width: 100%!important;
+  .footer-content .w50 {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 480px) {
   .footer-content .w-50 {
-    width: 100%!important;
+    width: 100% !important;
+  }
+}
+
+/* MENU CARD */
+
+@media screen and (max-width: 768px) {
+  #menu .menu-card {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #menu .menu-card {
+    width: 100% !important;
+  }
+}
+
+/* CHECKIN */
+
+@media screen and (max-width: 768px) {
+  #checkout h2 {
+    text-align: center;
+  }
+  #checkout p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  #checkout h2 {
+    text-align: center;
+  }
+  #checkout p {
+    text-align: center;
   }
 }
