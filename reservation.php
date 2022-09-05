@@ -211,7 +211,7 @@ include("inc/header.php");
             <h4><strong>Total :</strong></h4>
             <h4><strong>29.30 €</strong></h4>
         </div>
-        <a href="payment.php" class="btn d-flex justify-center">Payer</a>
+        <a href="login.php" class="btn d-flex justify-center">Payer</a>
     </div>
 </section>
 <?php

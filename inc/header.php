@@ -68,16 +68,16 @@
         <div class="plus-item">
           <h4 class="text-dark text-center">Expérience</h4>
           <ul class="list mt-1">
-            <li class="list-item text-center py-1"><a class="link" href="#">Séance i-sense</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">Luxe Diner</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">L'étoile</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="experience.php">Séance i-sense</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="experience.php">Luxe Diner</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="experience.php">L'étoile</a></li>
           </ul>
         </div>
         <!-- ITEM -->
         <div class="plus-item">
           <a href="about.php"><h4 class="text-dark text-center">A propos</h4></a>
           <ul class="list mt-1">
-            <li class="list-item text-center py-1"><a class="link" href="#">Films & Evénements</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="films.php">Films & Evénements</a></li>
             <li class="list-item text-center py-1"><a class="link" href="#">Luxe Diner</a></li>
             <li class="list-item text-center py-1"><a class="link" href="#">Accéssibilité</a></li>
           </ul>

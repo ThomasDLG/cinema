@@ -1,5 +1,5 @@
 <?php
-$title = 'Acceuil';
+$title = 'Paiement';
 include("inc/header.php");
 ?>
 
@@ -62,7 +62,7 @@ include("inc/header.php");
 
 </div>
 
-<form action="">
+<form action="checkin.php">
 <div class="inputBox w-100">
     <span class="main-font">numéro de carte</span>
     <input type="text" maxlength="16" class="card-number-input">

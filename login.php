@@ -13,7 +13,7 @@ include("inc/header.php");
         </div>
         <div class="footer-content text-center pt-5">
             <h2 class="text-dark py-2">Continuer sans m'identifier</h2>
-            <form method="POST">
+            <form action="payment.php" method="POST">
               <input class="newsletter" type="text" placeholder="Email :" />
               <button class="btn" type="submit">
                 <img src="src/icons/sent-white.svg" alt="" />
