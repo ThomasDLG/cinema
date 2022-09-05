@@ -1846,3 +1846,12 @@ li {
   border: 1px solid #E2E2E2;
   text-align: center;
 }
+
+.contactform input,
+.contactform textarea {
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid var(--primary);
+  outline: none;
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

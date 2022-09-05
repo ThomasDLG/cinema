@@ -88,7 +88,7 @@
         </div>
         <!-- ITEM -->
         <div class="plus-item">
-          <h4 class="text-dark text-center">Contact</h4>
+          <a href="contact.php"><h4 class="text-dark text-center">Contact</h4></a>
         </div>
       </div>
     </div>

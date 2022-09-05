@@ -271,3 +271,26 @@
     text-align: center;
   }
 }
+
+/* CONTACT */
+
+@media screen and (max-width: 768px) {
+  .contactform .contact-field {
+    width: 100%!important;
+  }
+  .contactform .btn {
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contactform .contact-field {
+    width: 100%!important;
+  }
+  .contactform .btn {
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
+  }
+}
