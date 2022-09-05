@@ -66,7 +66,7 @@
       <div class="container white d-flex row wrap justify-between">
         <!-- ITEM -->
         <div class="plus-item">
-          <h4 class="text-dark text-center">Expérience</h4>
+          <a href="experience.php"><h4 class="text-dark text-center">Expérience</h4></a>
           <ul class="list mt-1">
             <li class="list-item text-center py-1"><a class="link" href="experience.php">Séance i-sense</a></li>
             <li class="list-item text-center py-1"><a class="link" href="experience.php">Luxe Diner</a></li>
