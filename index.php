@@ -77,7 +77,7 @@ include("inc/header.php");
                       if ($movieCount < 8 && !empty($filmsCs->poster_path)) {
                         echo '<div class="my-2 mx-2 relative card-xs ">';
                             echo '<h4 class="text-light absolute pb-2">' . $filmsCs->release_date .'</h4>';
-                            echo '<a href="">';
+                            echo '<a href="filmsinfo.php?name=' . $films->original_title . '&id=' . $films->id . '">';
                                 echo '<img src="' . 'https://image.tmdb.org/t/p/w500' . $filmsCs->poster_path . '" alt="' . $filmsCs->original_title . '">';
                             echo '</a>';
                         echo '</div>';
