@@ -77,6 +77,41 @@ $food = array(
   ),
 );
 
+$salle = array(
+  array(
+    "image" => "src/experience/salle1.jpg",
+    "title" => "salle i-sense"
+  ),
+  array(
+    "image" => "src/experience/salle2.jpg",
+    "title" => "salle i-sense"
+  ),
+  array(
+    "image" => "src/experience/salle3.jpg",
+    "title" => "salle i-sense"
+  ),
+);
+
+$luxedinerproducts = array(
+  array(
+    "image" => "src/experience/burger.jpg",
+    "title" => "salle i-sense"
+  ),
+  array(
+    "image" => "src/experience/cocktail.jpg",
+    "title" => "salle i-sense"
+  ),
+  array(
+    "image" => "src/experience/frite.jpg",
+    "title" => "salle i-sense"
+  ),
+  array(
+    "image" => "src/experience/fries.jpg",
+    "title" => "salle i-sense"
+  ),
+);
+
+
 $genres = array(
   "Action" => array('nom' => 'Action', 'url' => 'discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2021-01-01&with_genres=28&without_genres=35%2C12%2C16%2C80%2C99%2C18%2C10751%2C14%2C36%2C27%2C10402%2C9648%2C10749%2C878%2C10770%2C53%2C10752%2C37&with_watch_monetization_types=buy'),
   "Aventure" => array('nom' => 'Aventure', 'url' => 'discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2021-01-01&with_genres=12&without_genres=35%2C28%2C16%2C80%2C99%2C18%2C10751%2C14%2C36%2C27%2C10402%2C9648%2C10749%2C878%2C10770%2C53%2C10752%2C37%2C&with_watch_monetization_types=buy'),

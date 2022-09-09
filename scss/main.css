@@ -466,6 +466,7 @@ li {
 
 .absolute {
   position: absolute;
+  top: 0;
 }
 
 .sticky {
