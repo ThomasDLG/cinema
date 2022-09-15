@@ -1130,7 +1130,7 @@ li {
   position: relative;
   width: 80px;
   height: 80px;
-  margin: 0 16px;
+  margin: 0 6px;
 }
 
 .radio-text {
@@ -1662,8 +1662,8 @@ li {
 }
 
 .screen p {
-  left: calc(50% - 45.5px);
-  bottom: 48px;
+  left: calc(50% - 23.5px);
+  margin-top: 12px;
 }
 
 .container-creditcard {
@@ -1855,4 +1855,10 @@ li {
   border-bottom: 1px solid var(--primary);
   outline: none;
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.luxeDinerBanner,
+.isenseBanner {
+  border-radius: 10px;
+  width: 100%;
+}

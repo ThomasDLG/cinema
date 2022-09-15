@@ -6,7 +6,7 @@ include("inc/header.php");
 ?>
 <section id="seat" class="section-64">
     <div class="container">
-        <h2 class="text-dark">Choisissez votre place</h2>
+        <h2 class="text-dark my-2">Choisissez votre place</h2>
         <div class="relative screen">
             <p class="absolute text-dark">Écran</p>
         </div>
@@ -82,7 +82,7 @@ include("inc/header.php");
 
 <section id="menu" class="section-64">
     <div class="container">
-        <h2 class="text-dark">Une grande faim ? <br> Choisissez Luxe Diner !</h2>
+        <h2 class="text-dark">Une grande faim&#8239;? <br> Choisissez Luxe Diner !</h2>
     </div>
     <div class="container d-flex wrap justify-between">
 

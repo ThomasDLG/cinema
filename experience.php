@@ -6,9 +6,9 @@ include("inc/header.php");
 
 <section class="section-64" id="isense">
     <div class="container relative">
-        <img src="src/experience/isense.webp" alt="" class="relative w-100">
-        <h2 class="text-light absolute mx-4 my-4">Vivez l'expérience i-Sense</h2>
-        <h2 class="text-dark">Un son et des images exceptionnelles</h2>
+        <h2 class="text-dark">Vivez l'expérience i-Sense</h2>
+        <p class="text-dark my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam.</p>
+        <a href="" class="btn">En savoir plus</a>
     </div>
 </section>
 
@@ -34,8 +34,9 @@ include("inc/header.php");
 
 <section class="section-64" id="luxediner">
     <div class="container relative">
-        <img src="src/experience/luxediner.jpg" alt="luxediner" class="w-100">
-        <h2 class="text-light absolute mx-4 my-4">Savourez votre film avec Luxe Diner</h2>
+        <h2 class="text-dark">Savourez votre film avec Luxe Diner</h2>
+        <p class="text-dark my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam.</p>
+        <a href="" class="btn">En savoir plus</a>
     </div>
 </section>
 
@@ -46,9 +47,9 @@ include("inc/header.php");
             <div class="d-flex row wrap justify-between wrapper">
             <?php
             foreach ($luxedinerproducts as $key => $value) {
-              echo '<div class="card-lg mx-2 my-2">';
+              echo '<div class="card-xs mx-2 my-2">';
                 echo '<a href="">';
-                    echo '<img src="' . $value["image"] . '" alt="' . $value["title"] . '">';
+                    echo '<img class="w-100" src="' . $value["image"] . '" alt="' . $value["title"] . '">';
                 echo '</a>';
               echo '</div>';
             }

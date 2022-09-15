@@ -95,19 +95,17 @@ include("inc/header.php");
             echo '<h2 class="text-dark my-2">' . $movieName . '</h2>';
             ?>
             <?php
-                echo '<div class="d-flex my-2">';
-                echo '<p class="text-dark pr-2"><strong>Genres : </strong></p>';
-                foreach (($datadesc->genres) as $key => $value) {
-                    foreach ($value as $genres) {
-                        // var_dump($genres);
-                        echo '<p class="text-dark">' . $genres . '</p>';
-                    }
+                echo '<div class="d-flex wrap my-2">';
+                echo '<p class="text-dark pr-2"><strong>Genres&#8239;: </strong></p>';
+                foreach (($datadesc->genres) as $genres) {
+                    echo '<p class="text-dark">' . $genres->name . '</p>';
+                    echo ',&nbsp';
                 }
                 echo '</div>';
 
                 echo '<div class="d-flex my-2">';
                 echo '<p class="text-dark pr-2"><strong>Critique :</strong></p>';
-                echo '<p class="text-dark">' . $datadesc->vote_average . ' ' . "<strong>/10</strong>" . ' </p>';
+                echo '<p class="text-dark">' . intval($datadesc->vote_average) . ' ' . "<strong>/10</strong>" . ' </p>';
                 echo '</div>';
 
                 echo '<div class="d-flex wrap my-2">';
@@ -176,10 +174,10 @@ include("inc/header.php");
 
 </div>
 
-<h3 class="text-light py-3">Heure :</h3>
-
 <?php
-    echo '<a href="reservation.php?movieName=' . $movieName . '" class="btn w-100 py-3">Réserver</a>';
+    echo '<div class="py-3">';
+        echo '<a href="reservation.php?movieName=' . $movieName . '" class="btn w-100 py-3">Réserver</a>';
+    echo '</div>';
 ?>
         </div>
     </section>

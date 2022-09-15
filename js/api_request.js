@@ -17,7 +17,11 @@ submit.addEventListener("submit", function (evt) {
       for (let i = 0; i < data["results"].length; i++) {
         if (data["results"][i]["poster_path"]) {
           img +=
-            '<a href="#"><img src="' +
+            '<a href="filmsinfo.php?name=' +
+            data["results"][i]["original_title"] +
+            "&id=" +
+            data["results"][i]["id"] +
+            '"><img src="' +
             "https://image.tmdb.org/t/p/w500" +
             data["results"][i]["poster_path"] +
             '" alt="' +

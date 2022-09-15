@@ -57,7 +57,7 @@ include("inc/header.php");
             ?>
             </div>
             <div class="mt-3 ml-2  mb-3">
-              <a href="" class="btn btn-icon-left"><i class="fa-solid fa-plus"></i>Voir tous les films</a>
+              <a href="films.php" class="btn btn-icon-left"><i class="fa-solid fa-plus"></i>Voir tous les films</a>
             </div>
         </div>
 

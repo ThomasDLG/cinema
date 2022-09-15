@@ -3,7 +3,7 @@ $title = 'Acceuil';
 include("inc/header.php");
 ?>
 
-<section id="checkout" class="section-64">
+<section id="confirmation" class="section-64">
     <div class="container">
         <h2 class="text-dark">Réservation confirmée</h2>
         <p>Lorem ipsum dolor sit.</p>

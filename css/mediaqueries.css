@@ -195,6 +195,9 @@
   .isense-img {
     padding: 0;
   }
+  .container-isense {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 768px) {
   .container-content {
@@ -253,44 +256,55 @@
   }
 }
 
-/* CHECKIN */
-
-@media screen and (max-width: 768px) {
-  #checkout h2 {
-    text-align: center;
-  }
-  #checkout p {
-    text-align: center;
-  }
-}
-@media screen and (max-width: 480px) {
-  #checkout h2 {
-    text-align: center;
-  }
-  #checkout p {
-    text-align: center;
-  }
-}
-
 /* CONTACT */
 
 @media screen and (max-width: 768px) {
   .contactform .contact-field {
-    width: 100%!important;
+    width: 100% !important;
   }
   .contactform .btn {
-    width: 100%!important;
-    display: flex!important;
-    justify-content: center!important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
   }
 }
 @media screen and (max-width: 480px) {
   .contactform .contact-field {
-    width: 100%!important;
+    width: 100% !important;
   }
   .contactform .btn {
-    width: 100%!important;
-    display: flex!important;
-    justify-content: center!important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* RESERVATION */
+
+@media screen and (max-width: 768px) {
+  #seat h2,
+  #food h2,
+  #menu h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #checkout h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  #checkout h2 {
+    text-align: center;
+  }
+}
+
+/* CONFIRMATION */
+
+@media screen and (max-width: 768px) {
+  #confirmation h2,
+  #confirmation p {
+    text-align: center;
   }
 }
