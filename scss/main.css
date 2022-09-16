@@ -1508,6 +1508,17 @@ li {
   transition: 0.3s;
 }
 
+#confirmation .card-xs-conf img {
+  height: 300px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
+  transition: all 0.2s ease-in-out;
+}
+#confirmation .card-xs-conf img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
 .luxediner .card-horizontal {
   width: 100%;
   display: none;

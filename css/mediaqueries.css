@@ -308,10 +308,6 @@
 
 /* CONFIRMATION */
 
-#confirmation .card-xs img {
-  width: 100%;
-}
-
 @media screen and (max-width: 768px) {
   #confirmation h2,
   #confirmation p {
