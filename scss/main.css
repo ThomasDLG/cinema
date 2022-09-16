@@ -2,12 +2,14 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  height: -webkit-fill-available;
 }
 
 body {
   margin: 0;
   background-color: var(--etoile-white);
   font-family: var(--etoile-main-font);
+  min-height: -webkit-fill-available;
 }
 
 main {
@@ -1130,7 +1132,7 @@ li {
   position: relative;
   width: 80px;
   height: 80px;
-  margin: 0 6px;
+  margin: 8px 6px;
 }
 
 .radio-text {
@@ -1506,6 +1508,21 @@ li {
   transition: 0.3s;
 }
 
+.luxediner .card-horizontal {
+  width: 100%;
+  display: none;
+}
+.luxediner .card-horizontal img {
+  width: 100%;
+  border-radius: 15px;
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
+  transition: all 0.2s ease-in-out;
+}
+
+.luxediner .card-md img {
+  width: 100%;
+}
+
 .card-md img {
   width: 300px;
   height: 400px;
@@ -1546,6 +1563,10 @@ li {
 
 .food-item {
   width: 100px;
+}
+.food-item img {
+  width: 100px;
+  height: 100px;
 }
 
 .select-food {
@@ -1861,4 +1882,37 @@ li {
 .isenseBanner {
   border-radius: 10px;
   width: 100%;
+}
+
+#seat .seat-col {
+  width: 124px;
+}
+
+#seat .seat-col input[type=checkbox] {
+  position: relative;
+  background-color: #c4c4c4;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 40px;
+  height: 32px;
+  margin: 1px;
+  cursor: pointer;
+  border-radius: 10px 10px 20px 20px;
+  border-bottom: 8px solid #5f5f5f;
+  border-left: 8px solid #5f5f5f;
+  border-right: 8px solid #5f5f5f;
+  transition: 250ms;
+}
+#seat .seat-col input[type=checkbox]:checked {
+  background-color: #e62140;
+  border-bottom: 8px solid #8c162d;
+  border-left: 8px solid #8c162d;
+  border-right: 8px solid #8c162d;
+}
+#seat .seat-col input[type=checkbox]:disabled {
+  background-color: #8c162d;
+  border-bottom: 4px solid #000;
+  border-left: 5px solid #000;
+  border-right: 5px solid #000;
 }

@@ -12,40 +12,13 @@ include("inc/header.php");
         </div>
         <div class="d-flex row justify-between">
         <?php
-        echo '<div>';
-            for ($i=0; $i < 10; $i++) {
-                echo '<div>';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                echo '</div>';
+        for ($i = 0; $i < 3; $i++) {
+            echo '<div class="seat-col d-flew wrap">';
+            for ($j = 0; $j < 30; $j++) {
+                echo '<input type="checkbox" name="place[]" value="' . $i . '-' . $j . '">';
             }
-        echo '</div>';
-        ?>
-        <?php
-        echo '<div>';
-            for ($i=0; $i < 10; $i++) {
-                echo '<div>';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                echo '</div>';
-            }
-        echo '</div>';
-        ?>
-        <?php
-        echo '<div>';
-            for ($i=0; $i < 10; $i++) {
-                echo '<div>';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                    echo '<input type="checkbox" id="">';
-                echo '</div>';
-            }
-        echo '</div>';
+            echo '</div>';
+        }
         ?>
         </div>
     </div>

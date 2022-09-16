@@ -76,7 +76,7 @@ include("inc/header.php");
                     foreach ($valueCs as $filmsCs) {
                       if ($movieCount < 8 && !empty($filmsCs->poster_path)) {
                         echo '<div class="my-2 mx-2 relative card-xs ">';
-                            echo '<h4 class="text-light absolute pb-2">' . $filmsCs->release_date .'</h4>';
+                            echo '<h4 class="text-light absolute pb-2">' . mb_substr($filmsCs->release_date,8,2) . ' ' . $mois[mb_substr($filmsCs->release_date,5,2)] . '</h4>';
                             echo '<a href="filmsinfo.php?name=' . $films->original_title . '&id=' . $films->id . '">';
                                 echo '<img src="' . 'https://image.tmdb.org/t/p/w500' . $filmsCs->poster_path . '" alt="' . $filmsCs->original_title . '">';
                             echo '</a>';
@@ -123,27 +123,27 @@ include("inc/header.php");
           <div class="card-horizontal relative my-2 mx-2">
             <h4 class="text-light absolute pb-2">Text</h4>
             <a href="">
-              <img src="src/img1.jpg" alt="">
+              <img src="src/experience/burger2.jpg" alt="">
             </a>
           </div>
           <div class="card-md relative my-2 mx-2">
             <h4 class="text-light absolute pb-2">Text</h4>
             <a href="">
-              <img src="src/img1.jpg" alt="">
+              <img src="src/experience/burger.jpg" alt="">
             </a>
           </div>
         <!-- CARD 2 -->
         <div class="card-md relative my-2 mx-2">
             <h4 class="text-light absolute pb-2">Text</h4>
             <a href="">
-              <img src="src/img1.jpg" alt="">
+              <img src="src/experience/cocktail.jpg" alt="">
             </a>
           </div>
         <!-- CARD 3 -->
           <div class="card-md relative my-2 mx-2">
             <h4 class="text-light absolute pb-2">Text</h4>
             <a href="">
-              <img src="src/img1.jpg" alt="">
+              <img src="src/experience/fries.jpg" alt="">
             </a>
           </div>
         </div>
@@ -158,8 +158,8 @@ include("inc/header.php");
 
           <!-- CONTENT-1 -->
           <div class="isense-content my-2 w-100 d-flex row wrap justify-between">
-            <div class="isense-img pr-2">
-              <img src="src/img1.jpg" alt="">
+            <div class="isense-img w-50 pr-2">
+              <img class="w-100" src="src/isense.jpg" alt="">
             </div>
             <div class="isense-txt pl-2">
               <h2 class="text-dark mb-2">Title Sample</h2>
@@ -169,8 +169,8 @@ include("inc/header.php");
 
           <!-- CONTENT-2 -->
           <div class="isense-content my-2 w-100 d-flex row-reverse wrap justify-between">
-            <div class="isense-img pl-2">
-              <img src="src/img1.jpg" alt="">
+            <div class="isense-img w-50 pl-2">
+              <img class="w-100" src="src/dolby.jpg" alt="">
             </div>
             <div class="isense-txt pr-2">
               <h2 class="text-dark mb-2">Title Sample</h2>
@@ -180,8 +180,8 @@ include("inc/header.php");
 
           <!-- CONTENT-3 -->
           <div class="isense-content my-2 w-100 d-flex row wrap justify-between">
-            <div class="isense-img pr-2">
-              <img src="src/img1.jpg" alt="">
+            <div class="isense-img w-50 pr-2">
+              <img class="w-100" src="src/4k.jpg" alt="">
             </div>
             <div class="isense-txt pl-2">
               <h2 class="text-dark mb-2">Title Sample</h2>

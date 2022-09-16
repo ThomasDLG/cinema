@@ -213,6 +213,9 @@
     flex-wrap: nowrap !important;
     overflow-y: auto !important;
   }
+  .isense-img {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 480px) {
   .container-content {
@@ -227,6 +230,9 @@
     width: auto !important;
     flex-wrap: nowrap !important;
     overflow-y: auto !important;
+  }
+  .isense-img {
+    width: 100% !important;
   }
 }
 
@@ -301,6 +307,10 @@
 }
 
 /* CONFIRMATION */
+
+#confirmation .card-xs img {
+  width: 100%;
+}
 
 @media screen and (max-width: 768px) {
   #confirmation h2,

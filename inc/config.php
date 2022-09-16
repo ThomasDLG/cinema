@@ -131,6 +131,21 @@ $genres = array(
   "Western" => array('nom' => 'Western', 'url' => 'discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2021-01-01&with_genres=10752&without_genres=16%2C28%2C12%2C35%2C99%2C80%2C18%2C10751%2C14%2C36%2C10402%2C27%2C9648%2C10749%2C10770%2C878%2C53%2C37%2C&with')
 );
 
+$mois = array(
+  "01" => "janvier",
+  "02" => "février",
+  "03" => "mars",
+  "04" => "avril",
+  "05" => "mai",
+  "06" => "juin",
+  "07" => "juillet",
+  "08" => "août",
+  "09" => "septembre",
+  "10" => "octobre",
+  "11" => "novembre",
+  "12" => "décembre",
+);
+
 $mainUrl = "discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&primary_release_date.gte=2000-04-01&primary_release_date.lte=2022-06-14&language=fr-FR&adult=false";
 
 if (!empty($_GET["genre"])) {
@@ -155,7 +170,7 @@ try {
     curl_setopt($ch, CURLOPT_MAXREDIRS, 3);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
-    curl_setopt($cs, CURLOPT_URL, 'https://api.themoviedb.org/3/movie/upcoming?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&adult=false');
+    curl_setopt($cs, CURLOPT_URL, 'https://api.themoviedb.org/3/discover/movie?api_key=41d556b9f4525188759fcf95d4685c62&language=fr-FR&primary_release_date.gte=2022-09-16&primary_release_date.lte=2022-12-31&adult=false&region=fr');
     curl_setopt($cs, CURLOPT_HEADER, false);
     curl_setopt($cs, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($cs, CURLOPT_CONNECTTIMEOUT, 15);

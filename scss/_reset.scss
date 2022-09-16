@@ -1,11 +1,13 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  height: -webkit-fill-available;
 }
 body {
   margin: 0;
   background-color: var(--etoile-white);
   font-family: var(--etoile-main-font);
+  min-height: -webkit-fill-available;
 }
 main {
   display: block;
