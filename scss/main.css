@@ -472,6 +472,9 @@ li {
 .classBody footer {
   align-self: flex-end;
 }
+.classBody header {
+  align-self: flex-start;
+}
 
 .relative {
   position: relative;

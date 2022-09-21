@@ -218,6 +218,7 @@
   }
   .isense-txt {
     width: 100% !important;
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 480px) {
