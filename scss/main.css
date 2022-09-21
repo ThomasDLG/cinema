@@ -1140,6 +1140,7 @@ li {
 }
 
 .radio-date {
+  cursor: pointer;
   position: relative;
   width: 80px;
   height: 80px;
@@ -1172,6 +1173,7 @@ li {
 }
 
 .radio-date input[type=radio] {
+  cursor: pointer;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;

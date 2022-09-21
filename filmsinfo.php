@@ -97,9 +97,13 @@ include("inc/header.php");
             <?php
                 echo '<div class="d-flex wrap my-2">';
                 echo '<p class="text-dark pr-2"><strong>Genres&#8239;: </strong></p>';
+                $i = 1;
                 foreach (($datadesc->genres) as $genres) {
                     echo '<p class="text-dark">' . $genres->name . '</p>';
-                    echo ',&nbsp';
+                    if($i < count($datadesc->genres)) {
+                        echo ',&nbsp';
+                    }
+                    $i++;
                 }
                 echo '</div>';
 

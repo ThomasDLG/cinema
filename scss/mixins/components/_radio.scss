@@ -1,4 +1,5 @@
 .radio-date {
+  cursor: pointer;
   position: relative;
   width: 80px;
   height: 80px;
@@ -31,6 +32,7 @@
 }
 
 .radio-date input[type="radio"] {
+  cursor: pointer;
   appearance: none;
   position: absolute;
   width: 100%;
