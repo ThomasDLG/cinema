@@ -88,3 +88,14 @@
 .col-reverse {
   flex-direction: column-reverse;
 }
+
+.classBody {
+  display: flex;
+  flex-wrap: wrap;
+  & > * {
+    width: 100%;
+  }
+  & footer {
+    align-self: flex-end;
+  }
+}

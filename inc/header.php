@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title><?php echo $title; ?></title>
   </head>
-  <body>
+  <body class="<?php if(!empty($classBody)){echo $classBody;} ?>">
 
   <!-- SEARCHING POPUP -->
 

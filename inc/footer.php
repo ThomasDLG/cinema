@@ -30,7 +30,7 @@
           <div class="footer-content">
             <h4 class="text-light my-2">Newsletter</h4>
             <form method="POST">
-              <input class="newsletter" type="text" placeholder="Email :" />
+              <input class="newsletter" type="text" placeholder="Votre email" />
               <button class="btn" type="submit">
                 <img src="src/icons/sent-white.svg" alt="" />
               </button>
@@ -54,10 +54,10 @@
           <div class="footer-content">
             <h4 class="text-light my-2">Naviguation</h4>
             <ul>
-              <li><a class="link" href="about.php">A propos</a></li>
+              <li><a class="link" href="about.php">À propos</a></li>
               <li><a class="link" href="#">Contact</a></li>
               <li><a class="link" href="#">F.A.Q</a></li>
-              <li><a class="link" href="#">Accéssibilité</a></li>
+              <li><a class="link" href="#">Accessibilité</a></li>
               <li><a class="link" href="#">Plan du site</a></li>
             </ul>
           </div>

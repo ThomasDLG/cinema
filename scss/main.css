@@ -462,6 +462,17 @@ li {
   flex-direction: column-reverse;
 }
 
+.classBody {
+  display: flex;
+  flex-wrap: wrap;
+}
+.classBody > * {
+  width: 100%;
+}
+.classBody footer {
+  align-self: flex-end;
+}
+
 .relative {
   position: relative;
 }

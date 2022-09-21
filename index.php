@@ -161,7 +161,7 @@ include("inc/header.php");
             <div class="isense-img w-50 pr-2">
               <img class="w-100" src="src/isense.jpg" alt="">
             </div>
-            <div class="isense-txt pl-2">
+            <div class="isense-txt w-50 pl-2">
               <h2 class="text-dark mb-2">Écran sensationnel</h2>
               <p>Les écrans I-Sense vont du sol au plafond et mur à mur pour créer l’impact le plus visuel.
 Vous obtenez également une vue parfaite de l’écran, peu importe où vous vous asseyez dans le cinéma.
@@ -174,7 +174,7 @@ Vous obtenez également une vue parfaite de l’écran, peu importe où vous vou
             <div class="isense-img w-50 pl-2">
               <img class="w-100" src="src/dolby.jpg" alt="">
             </div>
-            <div class="isense-txt pr-2">
+            <div class="isense-txt w-50 pr-2">
               <h2 class="text-dark mb-2">Son sensationnel</h2>
               <p>Les cinémas I-Sense disposent également de haut-parleurs Dolby® Atmos™ de pointe.
 Un son puissant et palpitant vous enveloppe dans toutes les directions pour rehausser le réalisme de chaque scène.
@@ -187,7 +187,7 @@ Un son puissant et palpitant vous enveloppe dans toutes les directions pour reha
             <div class="isense-img w-50 pr-2">
               <img class="w-100" src="src/4k.jpg" alt="">
             </div>
-            <div class="isense-txt pl-2">
+            <div class="isense-txt w-50 pl-2">
               <h2 class="text-dark mb-2">Images sensationnelles
               </h2>
               <p>Nos projecteurs 4K à la pointe de la technologie offrent une image encore plus lumineuse, plus claire et plus colorée.

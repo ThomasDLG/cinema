@@ -1,5 +1,6 @@
 <?php
 $title = 'My-Toile';
+$classBody = "classBody";
 include("inc/header.php");
 ?>
 

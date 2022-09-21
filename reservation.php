@@ -60,10 +60,10 @@ include("inc/header.php");
     <div class="container d-flex wrap justify-between">
 
         <div class="menu-card w-40 py-2">
-            <h4 class="text-dark">Menu...</h4>
+            <h4 class="text-dark">Luxe Wagyu</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
-                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="">
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
@@ -79,10 +79,10 @@ include("inc/header.php");
         </div>
 
         <div class="menu-card w-40 py-2">
-            <h4 class="text-dark">Menu...</h4>
+            <h4 class="text-dark">Luxe Burger</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
-                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=722&q=80" alt="">
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
@@ -98,10 +98,10 @@ include("inc/header.php");
         </div>
 
         <div class="menu-card w-40">
-            <h4 class="text-dark">Menu...</h4>
+            <h4 class="text-dark">Luxe Chicken</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
-                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" alt="">
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
@@ -117,10 +117,10 @@ include("inc/header.php");
         </div>
 
         <div class="menu-card w-40">
-            <h4 class="text-dark">Menu...</h4>
+            <h4 class="text-dark">Luxe Grillade</h4>
             <div class="menu-content my-3 d-flex justify-arround">
                 <div class="menu-img">
-                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1625477811233-044633d10dd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
