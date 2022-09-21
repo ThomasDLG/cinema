@@ -1,5 +1,6 @@
 <?php
 $title = 'A propos';
+$classBody = "classBody";
 include("inc/header.php");
 ?>
 

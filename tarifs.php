@@ -1,5 +1,6 @@
 <?php
 $title = 'Tarifs';
+$classBody = "classBody";
 include("inc/header.php");
 ?>
 
