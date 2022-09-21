@@ -75,11 +75,11 @@
         </div>
         <!-- ITEM -->
         <div class="plus-item">
-          <a href="about.php"><h4 class="text-dark text-center">A propos</h4></a>
+          <a href="about.php"><h4 class="text-dark text-center">À propos</h4></a>
           <ul class="list mt-1">
             <li class="list-item text-center py-1"><a class="link" href="films.php">Films & Evénements</a></li>
             <li class="list-item text-center py-1"><a class="link" href="#">Luxe Diner</a></li>
-            <li class="list-item text-center py-1"><a class="link" href="#">Accéssibilité</a></li>
+            <li class="list-item text-center py-1"><a class="link" href="#">Accessibilité</a></li>
           </ul>
         </div>
         <!-- ITEM -->

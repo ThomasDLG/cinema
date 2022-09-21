@@ -1,6 +1,6 @@
 <?php
 include("inc/config.php");
-$title = 'Acceuil';
+$title = 'Accueil';
 include("inc/header.php");
 ?>
     <section id="mytoile">

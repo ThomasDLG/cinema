@@ -216,6 +216,9 @@
   .isense-img {
     width: 100% !important;
   }
+  .isense-txt {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 480px) {
   .container-content {
