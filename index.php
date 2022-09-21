@@ -121,27 +121,27 @@ include("inc/header.php");
         <div class="luxediner d-flex row wrap justify-between">
           <!-- CARD 1 -->
           <div class="card-horizontal relative my-2 mx-2">
-            <h4 class="text-light absolute pb-2">Text</h4>
+            <h4 class="text-light absolute pb-2">Menu luxe</h4>
             <a href="">
               <img src="src/experience/burger2.jpg" alt="">
             </a>
           </div>
           <div class="card-md relative my-2 mx-2">
-            <h4 class="text-light absolute pb-2">Text</h4>
+            <h4 class="text-light absolute pb-2">Menu luxe</h4>
             <a href="">
               <img src="src/experience/burger.jpg" alt="">
             </a>
           </div>
         <!-- CARD 2 -->
         <div class="card-md relative my-2 mx-2">
-            <h4 class="text-light absolute pb-2">Text</h4>
+            <h4 class="text-light absolute pb-2">Bar à cocktails</h4>
             <a href="">
               <img src="src/experience/cocktail.jpg" alt="">
             </a>
           </div>
         <!-- CARD 3 -->
           <div class="card-md relative my-2 mx-2">
-            <h4 class="text-light absolute pb-2">Text</h4>
+            <h4 class="text-light absolute pb-2">Snack</h4>
             <a href="">
               <img src="src/experience/fries.jpg" alt="">
             </a>
@@ -162,8 +162,10 @@ include("inc/header.php");
               <img class="w-100" src="src/isense.jpg" alt="">
             </div>
             <div class="isense-txt pl-2">
-              <h2 class="text-dark mb-2">Title Sample</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h2 class="text-dark mb-2">Écran sensationnel</h2>
+              <p>Les écrans I-Sense vont du sol au plafond et mur à mur pour créer l’impact le plus visuel.
+Vous obtenez également une vue parfaite de l’écran, peu importe où vous vous asseyez dans le cinéma.
+</p>
             </div>
           </div>
 
@@ -173,8 +175,10 @@ include("inc/header.php");
               <img class="w-100" src="src/dolby.jpg" alt="">
             </div>
             <div class="isense-txt pr-2">
-              <h2 class="text-dark mb-2">Title Sample</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h2 class="text-dark mb-2">Son sensationnel</h2>
+              <p>Les cinémas I-Sense disposent également de haut-parleurs Dolby® Atmos™ de pointe.
+Un son puissant et palpitant vous enveloppe dans toutes les directions pour rehausser le réalisme de chaque scène.
+</p>
             </div>
           </div>
 
@@ -184,13 +188,16 @@ include("inc/header.php");
               <img class="w-100" src="src/4k.jpg" alt="">
             </div>
             <div class="isense-txt pl-2">
-              <h2 class="text-dark mb-2">Title Sample</h2>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h2 class="text-dark mb-2">Images sensationnelles
+              </h2>
+              <p>Nos projecteurs 4K à la pointe de la technologie offrent une image encore plus lumineuse, plus claire et plus colorée.
+Avec jusqu’à 9 millions de pixels façonnant chaque scène, votre film prend vie avec des détails d’une extrême netteté.
+</p>
             </div>
           </div>
 
           <div class="mt-3 mb-3">
-              <a href="" class="btn btn-icon-left"><i class="fa-solid fa-plus"></i>Voir tous les films</a>
+              <a href="films.php" class="btn btn-icon-left"><i class="fa-solid fa-plus"></i>Voir tous les films</a>
           </div>
 
         </div>

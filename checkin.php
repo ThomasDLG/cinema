@@ -6,7 +6,7 @@ include("inc/header.php");
 <section id="confirmation" class="section-64">
     <div class="container">
         <h2 class="text-dark">Réservation confirmée</h2>
-        <p>Lorem ipsum dolor sit.</p>
+        <p>Merci pour votre réservation ! <br> Savourez votre film avec l'étoile.</p>
         <div class="d-flex row wrap justify-between wrapper">
 
             <div class="card-xs-conf my-2 mx-2 relative">

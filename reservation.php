@@ -67,11 +67,11 @@ include("inc/header.php");
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                    <li class="list-item pb-1">Boeuf Wagyu</li>
+                    <li class="list-item pb-1">Salade vinaigrette</li>
+                    <li class="list-item pb-1">Plateau de fromages</li>
+                    <li class="list-item pb-1">Sorbet</li>
+                    <li class="list-item pt-2"><strong>Prix : 34 €</strong></li>
                 </ul>
                 </div>
             </div>
@@ -86,11 +86,11 @@ include("inc/header.php");
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                    <li class="list-item pb-1">Burger premium</li>
+                    <li class="list-item pb-1">Frites de patates douces</li>
+                    <li class="list-item pb-1">Plateau de fromages</li>
+                    <li class="list-item pb-1">Gateau au chocolat</li>
+                    <li class="list-item pt-2"><strong>Prix : 40 €</strong></li>
                 </ul>
                 </div>
             </div>
@@ -105,11 +105,11 @@ include("inc/header.php");
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                    <li class="list-item pb-1">Aiguillette de poulet</li>
+                    <li class="list-item pb-1">Rondelles d'oignons à la bière</li>
+                    <li class="list-item pb-1">Plateau de fromages</li>
+                    <li class="list-item pb-1">Gauffres</li>
+                    <li class="list-item pt-2"><strong>Prix : 29 €</strong></li>
                 </ul>
                 </div>
             </div>
@@ -124,11 +124,11 @@ include("inc/header.php");
                 </div>
                 <div class="menu-list pl-2">
                 <ul class="list">
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pb-1">Paragraph sample text</li>
-                    <li class="list-item pt-2"><strong>Prix : 18 €</strong></li>
+                    <li class="list-item pb-1">Porc éffiloché</li>
+                    <li class="list-item pb-1">Poivrons farcis à la feta</li>
+                    <li class="list-item pb-1">Plateau de fromages</li>
+                    <li class="list-item pb-1">Sorbet fraise & citron</li>
+                    <li class="list-item pt-2"><strong>Prix : 35 €</strong></li>
                 </ul>
                 </div>
             </div>
