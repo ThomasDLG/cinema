@@ -55,9 +55,8 @@
             <h4 class="text-light my-2">Naviguation</h4>
             <ul>
               <li><a class="link" href="about.php">À propos</a></li>
-              <li><a class="link" href="#">Contact</a></li>
-              <li><a class="link" href="#">F.A.Q</a></li>
-              <li><a class="link" href="#">Accessibilité</a></li>
+              <li><a class="link" href="contact.php">Contact</a></li>
+              <li><a class="link" href="about">Accessibilité</a></li>
               <li><a class="link" href="#">Plan du site</a></li>
             </ul>
           </div>
