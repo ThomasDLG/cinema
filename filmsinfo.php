@@ -129,54 +129,49 @@ include("inc/header.php");
         <h2 class="text-light py-3">Réservation</h2>
 
 <h3 class="text-light">Date :</h3>
-<div id="radio" class="d-flex wrap my-2">
+<?php
+$listeMoisRacc["01"] = 'Jan';
+$listeMoisRacc["02"] = 'Fév';
+$listeMoisRacc["03"] = 'Mar';
+$listeMoisRacc["04"] = 'Avr';
+$listeMoisRacc["05"] = 'Mai';
+$listeMoisRacc["06"] = 'Jui';
+$listeMoisRacc["07"] = 'Jui';
+$listeMoisRacc["08"] = 'Aou';
+$listeMoisRacc["09"] = 'Sep';
+$listeMoisRacc["10"] = 'Oct';
+$listeMoisRacc["11"] = 'Nov';
+$listeMoisRacc["12"] = 'Déc';
 
-<div class="radio-date">
-<label for="date" class="radio-text">
-<span class="text-center d-block w-100">MER</span>
-<span class="text-center d-block w-100">05</span>
-<span class="text-center d-block w-100">JANV</span>
-</label>
-<input type="radio" id="date" name="selector">
-</div>
+$listeJourRacc[1] = 'Lun';
+$listeJourRacc[2] = 'Mar';
+$listeJourRacc[3] = 'Mer';
+$listeJourRacc[4] = 'Jeu';
+$listeJourRacc[5] = 'Ven';
+$listeJourRacc[6] = 'Sam';
+$listeJourRacc[7] = 'Dim';
 
-<div class="radio-date">
-<label for="date" class="radio-text">
-<span class="text-center d-block w-100">MER</span>
-<span class="text-center d-block w-100">05</span>
-<span class="text-center d-block w-100">JANV</span>
-</label>
-<input type="radio" id="date" name="selector">
-</div>
+$annee = date('Y');
+$mois = date('m');
+$jour = date('d');
 
-<div class="radio-date">
-<label for="date" class="radio-text">
-<span class="text-center d-block w-100">MER</span>
-<span class="text-center d-block w-100">05</span>
-<span class="text-center d-block w-100">JANV</span>
-</label>
-<input type="radio" id="date" name="selector">
-</div>
+echo '<div id="radio" class="d-flex wrap my-2 py-2">';
 
-<div class="radio-date">
-<label for="date" class="radio-text">
-<span class="text-center d-block w-100">MER</span>
-<span class="text-center d-block w-100">05</span>
-<span class="text-center d-block w-100">JANV</span>
-</label>
-<input type="radio" id="date" name="selector">
-</div>
+for ($i = 0; $i < 5 ; $i++) {
+  $dateX = mktime(0, 0, 0, $mois, ($jour + $i), $annee);
+  echo '<div class="radio-date">';
+    echo '<label for="date" class="radio-text">';
+      echo '<span class="text-center d-block w-100">' . $listeJourRacc[date('N', $dateX)] . '</span>';
+      echo '<span class="text-center d-block w-100">' . date('d', $dateX) . '</span>';
+      echo '<span class="text-center d-block w-100">' . $listeMoisRacc[date('m', $dateX)] . '</span>';
+    echo '</label>';
+      echo '<input type="radio" id="date" name="selector">';
+  echo '</div>';
+}
 
-<div class="radio-date">
-<label for="date" class="radio-text">
-<span class="text-center d-block w-100">MER</span>
-<span class="text-center d-block w-100">05</span>
-<span class="text-center d-block w-100">JANV</span>
-</label>
-<input type="radio" id="date" name="selector">
-</div>
+echo '</div>';
 
-</div>
+?>
 
 <?php
     echo '<div class="py-3">';
