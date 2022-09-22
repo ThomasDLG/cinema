@@ -135,7 +135,7 @@ include("inc/header.php");
         </div>
 
         <h4 class="mt-3">Nouritures & boissons</h4>
-        <p class="mb-3">Total : 14.40 € €</p>
+        <p class="mb-3">Total : 14.40 €</p>
 
         <div class="cart-item main-font d-flex py-2 px-2 justify-between">
             <span>Popcorn - <strong>5.90 €</strong></span><span class="ml-2"><i class="fa-solid fa-xmark"></i></span>
