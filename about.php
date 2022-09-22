@@ -1,5 +1,5 @@
 <?php
-$title = 'A propos';
+$title = 'À propos';
 $classBody = "classBody";
 include("inc/header.php");
 ?>

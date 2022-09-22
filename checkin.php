@@ -1,5 +1,5 @@
 <?php
-$title = 'Acceuil';
+$title = 'Réservation confirmée';
 include("inc/header.php");
 ?>
 
